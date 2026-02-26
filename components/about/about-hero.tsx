@@ -1,22 +1,42 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useRef } from 'react';
+import { useInView } from 'framer-motion';
+import { Clock } from 'lucide-react';
 
 export default function AboutHero() {
+  const heroRef = useRef(null);
+  const heroInView = useInView(heroRef, { once: true, margin: '-100px' });
+
   return (
-    <section className="relative gradient-hero pt-32 pb-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative pt-32 pb-20 overflow-hidden min-h-[50vh] flex flex-col justify-center">
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          background:
+            "radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #6594B1 100%)",
+        }}
+      />
+
+      <div className="relative max-w-7xl mx-auto px-6 text-center">
         <motion.div
+          ref={heroRef}
           initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={heroInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl"
         >
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Care First. <span className="gradient-text">Intelligence Always.</span>
+
+
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black leading-tight mb-6 tracking-tight">
+            Care First.{' '} <br />
+            <span className="text-brand">Intelligence Always.</span>
           </h1>
-          <p className="text-xl text-[#8B949E] mb-10">
-            Healthcare AI solutions from Plano, Texas.
+
+          <p className="text-base sm:text-lg text-black/60 max-w-2xl mx-auto leading-relaxed">
+            We envision a world where every clinic runs like a well-oiled machine —
+            AI doing the heavy lifting behind the scenes, so healthcare providers
+            can focus on what they do best: caring for patients.
           </p>
         </motion.div>
       </div>

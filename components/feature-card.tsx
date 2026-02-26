@@ -27,8 +27,8 @@ export default function FeatureCard({
       <div className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center mb-4">
         <Icon className="w-6 h-6 text-white" />
       </div>
-      <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">{title ?? ''}</h3>
-      <p className="text-[#6B6B6B] text-sm leading-relaxed">{description ?? ''}</p>
+      <h3 className="text-lg font-semibold text-black mb-2">{title ?? ''}</h3>
+      <p className="text-black/80 text-sm leading-relaxed">{description ?? ''}</p>
     </motion.div>
   );
 }

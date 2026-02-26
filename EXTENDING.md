@@ -26,7 +26,7 @@ export default function NewPage() {
       {/* Hero Section - Always dark gradient */}
       <section className="relative gradient-hero pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-[#6594B1]/10 rounded-full blur-3xl" />
+          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-brand/10 rounded-full blur-3xl" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6">
@@ -64,7 +64,7 @@ export default function NewPage() {
           <Link
             href={CONTACT_INFO.calendly}
             target="_blank"
-            className="inline-flex items-center px-8 py-4 bg-white text-[#6594B1] font-semibold rounded-lg hover:bg-gray-100 transition-all group"
+            className="inline-flex items-center px-8 py-4 bg-white text-brand font-semibold rounded-lg hover:bg-gray-100 transition-all group"
           >
             Get Started
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -110,13 +110,13 @@ const features = [
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className="card-light rounded-2xl p-6 card-hover transition-all duration-300"
     >
-      <div className="w-12 h-12 rounded-xl bg-[#6594B1]/10 flex items-center justify-center mb-4">
-        <feature.icon className="w-6 h-6 text-[#6594B1]" />
+      <div className="w-12 h-12 rounded-xl bg-brand/10 flex items-center justify-center mb-4">
+        <feature.icon className="w-6 h-6 text-brand" />
       </div>
-      <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">
+      <h3 className="text-lg font-semibold text-black mb-2">
         {feature.title}
       </h3>
-      <p className="text-sm text-[#6B6B6B]">
+      <p className="text-sm text-black/80">
         {feature.description}
       </p>
     </motion.div>
@@ -147,7 +147,7 @@ const stats = [
       <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">
         {stat.value}
       </div>
-      <p className="text-[#6B6B6B]">{stat.label}</p>
+      <p className="text-black/80">{stat.label}</p>
     </motion.div>
   ))}
 </div>
@@ -165,11 +165,11 @@ const stats = [
     animate={inView ? { opacity: 1, x: 0 } : {}}
     transition={{ duration: 0.6 }}
   >
-    <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
+    <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
       Section{' '}
       <span className="gradient-text">Title</span>
     </h2>
-    <p className="text-[#4A4A4A] text-lg mb-8">
+    <p className="text-black/80 text-lg mb-8">
       Description text goes here.
     </p>
   </motion.div>

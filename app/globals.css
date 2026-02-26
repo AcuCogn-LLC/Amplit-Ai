@@ -21,7 +21,7 @@ html {
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--dark);
-  color: #8B949E;
+  color: #000000;
 }
 
 /* Hide hydration errors */
@@ -100,7 +100,7 @@ body {
 
 /* Navigation */
 .nav-link {
-  color: #8B949E;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
@@ -144,4 +144,13 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+
+/* Ambient Background Utilities */
+.bg-ambient-glow {
+  background-image: radial-gradient(circle at 15% 50%, rgba(101,148,177,0.18) 0%, transparent 55%), radial-gradient(circle at 85% 20%, rgba(101,148,177,0.12) 0%, transparent 50%);
+}
+
+.bg-ambient-tint {
+  background-image: radial-gradient(110% 60% at 50% 50%, rgba(101,148,177,0.08) 0%, transparent 70%);
 }

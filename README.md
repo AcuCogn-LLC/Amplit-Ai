@@ -246,10 +246,10 @@ export default function NewComponent() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">
+          <h2 className="text-4xl font-bold text-black mb-4">
             Section <span className="gradient-text">Title</span>
           </h2>
-          <p className="text-[#4A4A4A] text-lg">Description</p>
+          <p className="text-black/80 text-lg">Description</p>
         </motion.div>
       </div>
     </section>
