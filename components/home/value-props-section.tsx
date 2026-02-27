@@ -50,13 +50,13 @@ export default function ValuePropsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-[#6594B1]/10 text-[#6594B1] text-sm font-medium mb-4">
+          <span className="inline-block px-4 py-1.5 rounded-full bg-brand/10 text-brand text-sm font-medium mb-4">
             Why Choose Us
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
             AI Handles the Grind. Your Team Handles the Moments That Matter.
           </h2>
-          <p className="text-[#6B6B6B] max-w-2xl mx-auto">
+          <p className="text-black/80 max-w-2xl mx-auto">
             So your front desk can stop drowning in tasks and start doing what they do best — patient interaction that actually matters.
           </p>
         </motion.div>

@@ -25,7 +25,7 @@ export default function DentsiBenefits() {
               <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">
                 {stat.value}
               </div>
-              <p className="text-[#6B6B6B]">{stat.label}</p>
+              <p className="text-black/80">{stat.label}</p>
             </motion.div>
           ))}
         </div>

@@ -2,118 +2,146 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import { Play, AudioLines } from 'lucide-react';
 import { CONTACT_INFO } from '@/lib/constants';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+
+const VIDEO_URL = 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen gradient-hero overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#6594B1]/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-[#6594B1]/5 rounded-full blur-3xl" />
-      </div>
+    <section className="relative h-screen overflow-hidden flex flex-col">
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          background: "radial-gradient(125% 125% at 50% 10%, #ffffff 40%, #6594B1 100%)",
+        }}
+      />
 
-      <div className="relative max-w-7xl mx-auto px-6 pt-32 pb-20">
-        <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[70vh]">
-          {/* Left Content */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              AI That{' '}
-              <span className="gradient-text">Amplifies</span>
-              <br />
-              Care
-            </h1>
-            <p className="text-xl md:text-2xl text-[#8B949E] mb-4">
-              for <span className="text-white">enterprise-grade speed</span>
-              <br />
-              & precision
-            </p>
-            <p className="text-[#6594B1] text-lg mb-10">
-              Intelligence 360° — Zero missed calls. Faster revenue. Better patient care.
-            </p>
+      <div className="relative z-10 max-w-7xl mx-auto px-6 flex items-center flex-1">
+        {/* Two-column layout */}
+        <div className="flex flex-col md:flex-row items-center w-full gap-8">
 
-            <div className="flex flex-wrap gap-4">
+          {/* Left: Text content */}
+          <div className="flex-1 max-w-xl text-center md:text-left">
+            {/* Headline */}
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-[2.5rem] sm:text-5xl md:text-6xl font-bold text-black leading-[1.1] mb-5 sm:mb-6"
+            >
+              Your AI-Powered Dental Front Desk
+            </motion.h1>
+
+            {/* Subtitle */}
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-[17px] sm:text-lg text-black/60 mb-8 md:mb-10 max-w-lg mx-auto md:mx-0 leading-relaxed"
+            >
+              Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss revenue again.
+            </motion.p>
+
+            {/* CTA + annotation */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="flex flex-wrap items-center justify-center md:justify-start gap-3"
+            >
+              {/* See In Action button */}
               <Link
                 href={CONTACT_INFO.calendly}
                 target="_blank"
-                className="inline-flex items-center px-8 py-4 bg-[#6594B1] text-white font-semibold rounded-lg hover:bg-[#4A7A99] transition-all hover:shadow-lg hover:shadow-[#6594B1]/30 group"
+                className="inline-flex items-center gap-3 px-6 py-3 bg-brand border border-black/15 text-white font-medium rounded-full shadow-sm hover:shadow-md hover:border-brand/40 transition-all group"
               >
-                Request Demo
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center shrink-0">
+                  <AudioLines className="w-3.5 h-3.5 text-brand fill-brand ml-0.5" />
+                </span>
+                See In Action
               </Link>
-              <Link
-                href="/about"
-                className="inline-flex items-center px-8 py-4 border border-[#30363d] text-[#8B949E] font-semibold rounded-lg hover:border-[#6594B1] hover:text-[#6594B1] transition-all"
+
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-black/15 text-black/70 font-medium rounded-full hover:shadow-md hover:border-brand/40 hover:text-black transition-all group"
+                  >
+                    <span className="w-8 h-8 rounded-full bg-black/5 flex items-center justify-center shrink-0 group-hover:bg-brand/10 transition-colors">
+                      <Play className="w-3.5 h-3.5 text-black/50 fill-black/50 ml-0.5 group-hover:text-brand group-hover:fill-brand transition-colors" />
+                    </span>
+                    Watch Now
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-w-4xl p-0 overflow-hidden bg-transparent border-none shadow-2xl">
+                  <iframe
+                    src={VIDEO_URL}
+                    title="Product demo video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full aspect-video rounded-xl"
+                  />
+                </DialogContent>
+              </Dialog>
+            </motion.div>
+
+            {/* Curved arrow + Talk to Amplit */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+              className="hidden md:flex flex-col items-start ml-40 mt-1"
+            >
+              <svg
+                width="60"
+                height="50"
+                viewBox="0 0 60 50"
+                fill="none"
+                className="text-black/50 -mb-1"
               >
-                Learn More
-              </Link>
-            </div>
+                <path
+                  d="M10 5 Q20 30 45 38"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  fill="none"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M40 33 L45 38 L38 40"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              <span className="text-sm text-black/60 font-medium ml-8">Talk to Amplit Ai !</span>
+            </motion.div>
+          </div>
+
+          {/* Right: Hero image — hidden on small, visible md+ */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.9, delay: 0.2 }}
+            className="hidden md:flex flex-1 items-center justify-center relative"
+          >
+            <Image
+              src="/hero.png"
+              alt="AI and human handshake"
+              width={1200}
+              height={1200}
+              className="object-contain w-full max-w-[1000px] drop-shadow-xl"
+              priority
+            />
           </motion.div>
 
-          {/* Right - 3D Visual */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            className="relative hidden lg:block"
-          >
-            <div className="relative w-full aspect-square">
-              {/* Abstract 3D-like visualization */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative w-80 h-80">
-                  {/* Floating cubes/blocks effect */}
-                  {[...Array(25)].map((_, i) => (
-                    <motion.div
-                      key={i}
-                      className="absolute w-8 h-8 bg-[#6594B1] rounded-sm"
-                      style={{
-                        left: `${20 + Math.random() * 60}%`,
-                        top: `${20 + Math.random() * 60}%`,
-                        opacity: 0.3 + Math.random() * 0.7,
-                        transform: `rotate(${Math.random() * 45}deg)`,
-                      }}
-                      animate={{
-                        y: [0, -10, 0],
-                        opacity: [0.3, 0.8, 0.3],
-                      }}
-                      transition={{
-                        duration: 3 + Math.random() * 2,
-                        repeat: Infinity,
-                        delay: Math.random() * 2,
-                      }}
-                    />
-                  ))}
-                  {/* Central glow */}
-                  <div className="absolute inset-0 bg-[#6594B1]/20 rounded-full blur-3xl" />
-                </div>
-              </div>
-              {/* Decorative line */}
-              <motion.svg
-                className="absolute bottom-0 left-0 w-48 h-48 text-[#6594B1]/30"
-                viewBox="0 0 100 100"
-                initial={{ pathLength: 0 }}
-                animate={{ pathLength: 1 }}
-                transition={{ duration: 2, delay: 0.5 }}
-              >
-                <motion.path
-                  d="M10,90 Q30,50 50,60 T90,30"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  initial={{ pathLength: 0 }}
-                  animate={{ pathLength: 1 }}
-                  transition={{ duration: 2, delay: 0.5 }}
-                />
-              </motion.svg>
-            </div>
-          </motion.div>
         </div>
       </div>
+
+
     </section>
   );
 }

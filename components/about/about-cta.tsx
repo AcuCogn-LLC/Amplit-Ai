@@ -5,43 +5,53 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { MapPin, ArrowRight } from 'lucide-react';
 import { CONTACT_INFO } from '@/lib/constants';
+import { BorderBeam } from '../ui/border-beam';
 
 export default function AboutCTA() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
+  // Generate vertical stripe positions
+  const stripes = Array.from({ length: 18 }, (_, i) => i);
+
   return (
-    <section ref={ref} className="py-20 md:py-28 bg-[#F9F9F9]">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-white py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          ref={ref}
+          initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-100 text-center"
+          className="relative overflow-hidden rounded-3xl  px-8 sm:px-12 py-16 md:py-20"
         >
-          <div className="flex items-center justify-center gap-2 text-[#6B6B6B] mb-6">
-            <MapPin className="w-5 h-5" />
-            <span>{CONTACT_INFO?.address ?? ''}</span>
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
-            Ready to Transform Your Practice?
-          </h2>
-          <p className="text-[#6B6B6B] max-w-2xl mx-auto mb-8">
-            Join healthcare practices across the country that are leveraging AI to deliver better patient care while running more efficient operations.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 gradient-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-[#6594B1]/25"
-            >
-              Get in Touch
-              <ArrowRight size={20} />
-            </Link>
-            <Link
-              href="/acucogn-scribe"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#4A4A4A] rounded-lg font-semibold border border-gray-200 hover:border-[#6594B1] hover:text-[#6594B1] transition-all"
-            >
-              Explore Products
-            </Link>
+           <div
+            className="absolute inset-0 pointer-events-none bg-ambient-glow"
+          />
+
+          <BorderBeam size={250} duration={12} colorFrom="#6594B1" colorTo="#a8c8de" borderWidth={1.5} />
+          {/* Content */}
+          <div className="relative z-10 max-w-xl">
+
+            <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight mb-5">
+              Stop Losing Revenue to Missed Calls
+            </h2>
+            <p className="text-black/80 text-base md:text-lg mb-10 leading-relaxed">
+              Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss revenue again. See how Amplit AI can transform your practice.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-brand text-white rounded-full font-semibold hover:opacity-90 transition-opacity whitespace-nowrap"
+              >
+                Get in Touch
+                <ArrowRight size={20} />
+              </Link>
+              {/* <Link
+                href="/acucogn-scribe"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-black/80 rounded-full font-semibold border border-gray-200 hover:border-brand hover:text-brand transition-all whitespace-nowrap"
+              >
+                Explore Products
+              </Link> */}
+            </div>
           </div>
         </motion.div>
       </div>

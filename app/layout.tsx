@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navigation from '@/components/navigation';
 import Footer from '@/components/footer';
+import LenisProvider from '@/components/lenis-provider';
 
 export const dynamic = 'force-dynamic';
 
@@ -29,12 +30,14 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <script src="https://apps.abacus.ai/chatllm/appllm-lib.js"></script>
       </head>
-      <body className={`${inter.className} bg-[#0D1117] text-[#8B949E] antialiased`}>
-        <Navigation />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
+      <body className={`${inter.className} bg-white text-[#000000] antialiased`}>
+        <LenisProvider>
+          <Navigation />
+          <main className="min-h-screen">
+            {children}
+          </main>
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );

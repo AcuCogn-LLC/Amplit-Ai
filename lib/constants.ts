@@ -5,9 +5,9 @@ export const BRAND_COLORS = {
   dark: '#0D1117',
   darkAlt: '#161B22',
   text: {
-    headline: '#FFFFFF',
-    body: '#8B949E',
-    muted: '#6E7681',
+    headline: '#000000',
+    body: '#000000',
+    muted: '#4A4A4A',
   },
   background: {
     dark: '#0D1117',
