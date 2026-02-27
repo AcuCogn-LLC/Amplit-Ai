@@ -16,7 +16,7 @@ export default function Home() {
            <WhyAmplit />
       <HowItWorks />
       <CoreCapabilities />
-      <ProductsSection />
+      {/* <ProductsSection /> */}
       <KeyFeatures />
       <FAQSection />
       <CTASection />

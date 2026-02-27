@@ -30,9 +30,10 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-[2.5rem] sm:text-5xl md:text-6xl font-bold text-black leading-[1.1] mb-5 sm:mb-6"
+              className="text-[2.5rem] sm:text-3xl md:text-5xl font-bold text-black leading-[1.1] mb-5 sm:mb-6"
             >
-              Your AI-Powered Dental Front Desk
+              Amplifying <br />
+ <span className="text-brand"> Healthcare Intelligence</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -42,7 +43,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-[17px] sm:text-lg text-black/60 mb-8 md:mb-10 max-w-lg mx-auto md:mx-0 leading-relaxed"
             >
-              Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss revenue again.
+              Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.
             </motion.p>
 
             {/* CTA + annotation */}
@@ -129,7 +130,7 @@ export default function HeroSection() {
             className="hidden md:flex flex-1 items-center justify-center relative"
           >
             <Image
-              src="/hero.png"
+              src="/hero-v3.png"
               alt="AI and human handshake"
               width={1200}
               height={1200}

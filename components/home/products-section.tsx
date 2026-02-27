@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Link from "next/link";
 import {
-  Phone,
   CalendarCheck,
   ArrowRight,
   Clock,
@@ -14,7 +13,7 @@ import {
 import { IMAGES } from "@/lib/constants";
 import Image from "next/image";
 
-/* ─── Highlights ─────────────────────────────────────────────── */
+
 const highlights = [
   {
     icon: PhoneIncoming,

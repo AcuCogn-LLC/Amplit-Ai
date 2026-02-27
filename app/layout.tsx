@@ -41,7 +41,6 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://apps.abacus.ai/chatllm/appllm-lib.js"></script>
       </head>
       <body className={`${inter.className} bg-white text-[#000000] antialiased`}>
         <LenisProvider>

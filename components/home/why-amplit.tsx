@@ -117,9 +117,13 @@ function CallMockup() {
           transition={{ duration: 0.4, delay: 1.2 }}
           className="border-t border-gray-100 px-5 py-3.5 flex items-center gap-2 bg-gray-50/50"
         >
-          <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+          <iframe
+            src="https://lottie.host/embed/cb59e15c-2dcc-44ef-8a72-bbc6f2fd03d1/migjrXMPIb.lottie"
+            className="w-10 h-10 shrink-0 border-0 pointer-events-none block"
+            title="AI handling call"
+          />
           <span className="text-[11px] text-black/60 font-medium uppercase tracking-wider">
-            AI handling call — 0 staff needed
+            AI handling call
           </span>
         </motion.div>
       </div>

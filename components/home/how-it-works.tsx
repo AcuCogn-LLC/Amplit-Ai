@@ -234,7 +234,7 @@ export default function HowItWorks() {
                   <h3 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                     {step.title}
                   </h3>
-                  {/* <p className="text-gray-600 mb-6 md:mb-8 text-base sm:text-base md:text-lg leading-relaxed">
+                  <p className="text-gray-600 mb-6 md:mb-8 text-base sm:text-base md:text-lg leading-relaxed">
                     {step.description}
                   </p>
                   <ul className="space-y-3">
@@ -244,7 +244,7 @@ export default function HowItWorks() {
                         {bullet}
                       </li>
                     ))}
-                  </ul> */}
+                  </ul>
                 </div>
 
                 {/* Visual Content: Bottom on mobile, alternates on desktop */}
