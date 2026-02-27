@@ -29,18 +29,7 @@ const faqItems = [
     answer:
       'Yes, Amplit AI is built with healthcare privacy in mind. All patient interactions are encrypted in transit and at rest, with strict HIPAA-compliant data access controls.',
   },
-  {
-    id: 'item-5',
-    question: 'Which practice management systems does it integrate with?',
-    answer:
-      'Amplit AI integrates directly with leading dental PMS including Dentrix, Eaglesoft, Open Dental, and Curve Dental. Appointments are booked and synced in real time with zero manual entry.',
-  },
-  {
-    id: 'item-6',
-    question: 'Does it handle insurance-related questions?',
-    answer:
-      'Yes. Amplit AI can handle basic insurance-related questions and perform real-time insurance verification during the call, confirming coverage details before the appointment is booked.',
-  },
+
 ];
 
 export default function FAQSection() {
@@ -80,7 +69,7 @@ export default function FAQSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.2 }}
-            className="text-black/80 mt-4 text-base leading-relaxed"
+            className="text-black/60 mt-4 text-base leading-relaxed"
           >
             Everything you need to know about Amplit AI and how it works for your dental practice.
           </motion.p>
@@ -105,13 +94,13 @@ export default function FAQSection() {
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent>
-                  <p className="text-base text-black/80 leading-relaxed">{item.answer}</p>
+                  <p className="text-base text-black/60 leading-relaxed">{item.answer}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
 
-          <p className="text-black/80 mt-6 px-4 sm:px-8 text-sm">
+          <p className="text-black/60 mt-6 px-4 sm:px-8 text-sm">
             Still have questions?{' '}
             <Link href="/contact" className="text-brand font-medium hover:underline">
               Contact our team

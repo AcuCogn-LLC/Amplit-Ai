@@ -56,7 +56,7 @@ export default function ValuePropsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
             AI Handles the Grind. Your Team Handles the Moments That Matter.
           </h2>
-          <p className="text-black/80 max-w-2xl mx-auto">
+          <p className="text-black/60 max-w-2xl mx-auto">
             So your front desk can stop drowning in tasks and start doing what they do best — patient interaction that actually matters.
           </p>
         </motion.div>

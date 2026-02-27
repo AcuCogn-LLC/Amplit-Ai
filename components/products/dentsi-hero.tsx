@@ -40,7 +40,7 @@ export default function DentsiHero() {
               transition={{ duration: 0.8 }}
               className="text-4xl sm:text-5xl md:text-6xl font-bold text-black leading-tight mb-6"
             >
-              Meet Dentsi, your AI voice agent that never misses a call.
+              Meet Your 24/7 AI Front Desk Assistant - <span className="text-brand">Dentsi</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -50,7 +50,7 @@ export default function DentsiHero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-base sm:text-lg text-black/60 mb-8 md:mb-10 max-w-lg mx-auto md:mx-0"
             >
-              24/7 automated call handling, real-time appointment booking, and instant PMS sync — trusted by dental practices across the US and Canada.
+                          Dentsi answers every call instantly, understands patient needs, and books appointments — just like a trained front desk staff member.
             </motion.p>
 
             {/* CTAs */}

@@ -77,7 +77,7 @@ export default function KeyFeatures() {
             What This Means for
             <br className="hidden sm:block" /> Your Practice
           </h2>
-          <p className="text-black/80 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-black/60 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
             Stop losing revenue to missed calls. Amplit AI transforms every patient interaction into an opportunity.
           </p>
         </motion.div>
@@ -136,7 +136,7 @@ export default function KeyFeatures() {
                 <h3 className="text-lg font-bold text-black mb-1.5">
                   {f.title}
                 </h3>
-                <p className="text-[15px] text-black/80 leading-relaxed">
+                <p className="text-[15px] text-black/60 leading-relaxed">
                   {f.description}
                 </p>
               </div>
@@ -159,7 +159,7 @@ export default function KeyFeatures() {
                 <h3 className="text-lg font-bold text-black mb-1.5">
                   {f.title}
                 </h3>
-                <p className="text-[15px] text-black/80 leading-relaxed">
+                <p className="text-[15px] text-black/60 leading-relaxed">
                   {f.description}
                 </p>
               </div>

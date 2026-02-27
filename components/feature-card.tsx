@@ -28,7 +28,7 @@ export default function FeatureCard({
         <Icon className="w-6 h-6 text-white" />
       </div>
       <h3 className="text-lg font-semibold text-black mb-2">{title ?? ''}</h3>
-      <p className="text-black/80 text-sm leading-relaxed">{description ?? ''}</p>
+      <p className="text-black/60 text-sm leading-relaxed">{description ?? ''}</p>
     </motion.div>
   );
 }

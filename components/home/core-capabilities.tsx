@@ -142,7 +142,7 @@ export default function CoreCapabilities() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.35 }}
-                  className="text-black/80 text-base leading-relaxed font-medium max-w-xs"
+                  className="text-black/60 text-base leading-relaxed font-medium max-w-xs"
                 >
                   Amplit AI doesn&apos;t just answer calls — it shows you exactly how those calls impact your revenue. You get full visibility into what your front desk might be missing.
                 </motion.p>
@@ -169,10 +169,10 @@ export default function CoreCapabilities() {
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-semibold text-black mb-1">{cap.title}</h3>
-                        <p className="text-black/80 text-[15px] mb-3">{cap.description}</p>
+                        <p className="text-black/60 text-[15px] mb-3">{cap.description}</p>
                         <ul className="space-y-1.5">
                           {cap.features.map((feature) => (
-                            <li key={feature} className="flex items-start text-sm text-black/80">
+                            <li key={feature} className="flex items-start text-sm text-black/60">
                               <span className="mr-2 mt-2 w-1 h-1 rounded-full bg-[#6594B1] shrink-0" />
                               {feature}
                             </li>

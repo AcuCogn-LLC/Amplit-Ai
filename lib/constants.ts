@@ -18,16 +18,15 @@ export const BRAND_COLORS = {
 };
 
 export const CONTACT_INFO = {
-  email: 'info@acucogn.com',
+  email: 'info@amplit.ai',
   phone: '+1 (516) 957-8453',
-  address: '5717 Legacy Dr Suite 250, Plano, TX 75024',
-  calendly: 'https://calendly.com/acucogn-sales/acucogn',
+  address: '4100 Spring Valley Rd, suite 650, Dallas TX 75244',
+  calendly: 'https://calendly.com/amplit-ai/acucogn',
 };
 
 export const NAV_LINKS = [
   { label: 'Home', href: '/' },
-  { label: 'Products', href: '#', hasDropdown: true, children: [
-    { label: 'AcuCogn Scribe', href: '/acucogn-scribe' },
+  { label: 'Product', href: '#', hasDropdown: true, children: [
     { label: 'Dentsi', href: '/dentsi' },
   ]},
   { label: 'About', href: '/about' },
@@ -40,6 +39,6 @@ export const IMAGES = {
   abstract2: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80',
   healthcare1: 'https://images.pexels.com/photos/33642018/pexels-photo-33642018.jpeg?cs=srgb&dl=pexels-davegarcia-33642018.jpg&fm=jpg',
   healthcare2: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80',
-  dental: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80',
+  dental: 'https://cdn.dribbble.com/userupload/43119007/file/original-af4c43b0c23af908d0edabac04c15127.png?resize=1024x768&vertical=center',
   team: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80',
 };

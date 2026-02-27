@@ -246,7 +246,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-xs font-extrabold uppercase tracking-wider text-black">{item.label}</p>
-                        <p className="text-black/80 font-medium">{item.val}</p>
+                        <p className="text-black/60 font-medium">{item.val}</p>
                       </div>
                     </Link>
                   ))}
@@ -275,7 +275,7 @@ export default function ContactPage() {
                     <Calendar className="w-7 h-7 text-brand" />
                   </div>
                   <h3 className="text-2xl font-bold mb-3 text-black tracking-tight">Prefer a live demo?</h3>
-                  <p className="text-black/80 text-sm leading-relaxed mb-8 max-w-[280px]">
+                  <p className="text-black/60 text-sm leading-relaxed mb-8 max-w-[280px]">
                     Schedule a 15-minute discovery call to see how Amplit AI handles live dental calls in real-time.
                   </p>
                   <Link

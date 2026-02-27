@@ -116,7 +116,7 @@ const features = [
       <h3 className="text-lg font-semibold text-black mb-2">
         {feature.title}
       </h3>
-      <p className="text-sm text-black/80">
+      <p className="text-sm text-black/60">
         {feature.description}
       </p>
     </motion.div>
@@ -147,7 +147,7 @@ const stats = [
       <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">
         {stat.value}
       </div>
-      <p className="text-black/80">{stat.label}</p>
+      <p className="text-black/60">{stat.label}</p>
     </motion.div>
   ))}
 </div>
@@ -169,7 +169,7 @@ const stats = [
       Section{' '}
       <span className="gradient-text">Title</span>
     </h2>
-    <p className="text-black/80 text-lg mb-8">
+    <p className="text-black/60 text-lg mb-8">
       Description text goes here.
     </p>
   </motion.div>

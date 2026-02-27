@@ -34,7 +34,7 @@ export default function AboutCTA() {
             <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight mb-5">
               Stop Losing Revenue to Missed Calls
             </h2>
-            <p className="text-black/80 text-base md:text-lg mb-10 leading-relaxed">
+            <p className="text-black/60 text-base md:text-lg mb-10 leading-relaxed">
               Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss revenue again. See how Amplit AI can transform your practice.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -47,7 +47,7 @@ export default function AboutCTA() {
               </Link>
               {/* <Link
                 href="/acucogn-scribe"
-                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-black/80 rounded-full font-semibold border border-gray-200 hover:border-brand hover:text-brand transition-all whitespace-nowrap"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-black/60 rounded-full font-semibold border border-gray-200 hover:border-brand hover:text-brand transition-all whitespace-nowrap"
               >
                 Explore Products
               </Link> */}

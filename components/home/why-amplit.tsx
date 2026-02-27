@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { PhoneCall, CalendarCheck, HelpCircle, Moon, ArrowUpDown } from "lucide-react";
 import { BorderBeam } from "@/components/ui/border-beam";
+import { CONTACT_INFO } from '@/lib/constants';
+
 
 const capabilities = [
   { icon: PhoneCall, label: "Answers every incoming call" },
@@ -14,18 +16,16 @@ const capabilities = [
 
 const stats = [
   {
-    emoji: "📉",
-    value: "40%",
-    label: "Fewer no-shows",
-    description: "Automated reminders & instant rebooking cut missed appointments significantly.",
+    emoji: "📞",
+    value: "100%",
+    label: "Calls answered",
     gradient: "from-[#eef4f8] to-white",
     valueColor: "text-brand",
   },
   {
-    emoji: "⚡",
-    value: "24/7",
-    label: "Always available",
-    description: "Nights, weekends, holidays — every call answered, every appointment booked.",
+    emoji: "⏱️",
+    value: "0s",
+    label: "Wait time",
     gradient: "from-brand/10 to-white",
     valueColor: "text-brand",
   },
@@ -43,7 +43,7 @@ function CallMockup() {
             </div>
             <div>
               <p className="text-white text-xs font-semibold">Incoming Call</p>
-              <p className="text-white/70 text-xs">+1 (972) 555-0148</p>
+              <p className="text-white/70 text-xs">{CONTACT_INFO.phone}</p>
             </div>
           </div>
           <span className="text-white/80 text-xs font-mono">00:04</span>
@@ -55,19 +55,23 @@ function CallMockup() {
               label: "Intent",
               value: "Book Cleaning",
               color: "bg-brand/10 text-brand",
+              delay: 0.3,
             },
             {
               label: "Patient",
               value: "Sarah M. — Existing",
               color: "bg-black/5 text-black/60",
-            },
-            {
-              label: "Insurance",
-              value: "Delta Dental ✓",
-              color: "bg-green-50 text-green-700",
+              delay: 0.5,
             },
           ].map((row) => (
-            <div key={row.label} className="flex items-center justify-between">
+            <motion.div
+              key={row.label}
+              initial={{ opacity: 0, x: 12 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: row.delay, ease: "easeOut" }}
+              className="flex items-center justify-between"
+            >
               <span className="text-[13px] text-gray-400 font-medium">
                 {row.label}
               </span>
@@ -76,10 +80,16 @@ function CallMockup() {
               >
                 {row.value}
               </span>
-            </div>
+            </motion.div>
           ))}
           {/* Slot */}
-          <div className="mt-5 bg-brand/5 rounded-xl p-4 border border-brand/10">
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.7, ease: "easeOut" }}
+            className="mt-5 bg-brand/5 rounded-xl p-4 border border-brand/10"
+          >
             <p className="text-xs text-gray-400 mb-2 font-medium">
               Booking slot
             </p>
@@ -87,27 +97,31 @@ function CallMockup() {
               <span className="text-sm font-bold text-gray-900">
                 Thu, Mar 6 · 10:30 AM
               </span>
-              <span className="text-[11px] bg-brand text-white rounded-full px-2.5 py-1 font-semibold tracking-wide uppercase">
+              <motion.span
+                initial={{ scale: 0.8, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.3, delay: 1.0, ease: "easeOut" }}
+                className="text-[11px] bg-brand text-white rounded-full px-2.5 py-1 font-semibold tracking-wide uppercase"
+              >
                 Confirmed
-              </span>
+              </motion.span>
             </div>
-          </div>
+          </motion.div>
         </div>
         {/* Footer */}
-        <div className="border-t border-gray-100 px-5 py-3.5 flex items-center gap-2 bg-gray-50/50">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4, delay: 1.2 }}
+          className="border-t border-gray-100 px-5 py-3.5 flex items-center gap-2 bg-gray-50/50"
+        >
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
           <span className="text-[11px] text-black/60 font-medium uppercase tracking-wider">
             AI handling call — 0 staff needed
           </span>
-        </div>
-        {/* This gradient will now be constrained to this specific div */}
-        <div
-          className="absolute inset-x-0 bottom-0 h-60 z-10 pointer-events-none"
-          style={{
-            background:
-              "linear-gradient(to top, #ffffff 0%, rgba(248, 249, 251, 0) 100%)",
-          }}
-        />
+        </motion.div>
       </div>
     </div>
   );
@@ -148,8 +162,6 @@ export default function WhyAmplit() {
 
         {/* Bento Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          {/* Left Column — Large Card */}
-          {/* Left Column — Large Card */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -173,9 +185,8 @@ export default function WhyAmplit() {
             </div>
           </motion.div>
 
-          {/* Right Column — Sub Grid */}
+
           <div className="flex flex-col gap-5">
-            {/* Top right — Key Capabilities */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -193,7 +204,7 @@ export default function WhyAmplit() {
               <div
                 className="overflow-hidden relative"
                 style={{
-                  height: "192px",
+                  height: "180px",
                   maskImage: "linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%)",
                   WebkitMaskImage: "linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%)",
                 }}>
@@ -219,7 +230,6 @@ export default function WhyAmplit() {
               </div>
             </motion.div>
 
-            {/* Bottom right — Stat Cards */}
             <div className="grid grid-cols-2 gap-5">
               {stats.map((stat, i) => (
                 <motion.div
@@ -234,6 +244,7 @@ export default function WhyAmplit() {
                   <div
                     className="absolute -bottom-8 -right-8 w-28 h-28 rounded-full blur-2xl opacity-40 z-0 bg-brand"
                   />
+                              <BorderBeam size={350} duration={12} colorFrom="#6594B1" colorTo="#a8c8de" borderWidth={1.5} />
                   {/* Top: emoji badge */}
                   <div className="relative z-10 w-10 h-10 rounded-xl bg-brand/10 border border-brand/15 flex items-center justify-center text-lg">
                     {stat.emoji}
@@ -246,6 +257,7 @@ export default function WhyAmplit() {
                     <p className="text-gray-900 text-[13px] font-semibold mb-1">
                       {stat.label}
                     </p>
+                    
                    
                   </div>
                 </motion.div>

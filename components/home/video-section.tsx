@@ -27,15 +27,11 @@ export default function VideoSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="relative -mr-56 mt-1 overflow-hidden px-2 sm:mr-0 "
-          style={{
-            maskImage: "linear-gradient(to bottom, black 60%, transparent 95%)",
-            WebkitMaskImage: "linear-gradient(to bottom, black 60%, transparent 95%)",
-          }}
+          className="relative overflow-hidden"
         >
-          {/* Inner card frame */}
+
           <div className="relative mx-auto max-w-6xl overflow-hidden rounded-2xl border border-black/10 bg-white p-4 shadow-lg shadow-zinc-950/15 ring-1 ring-black/5">
-            {/* Video Container */}
+
             <div
               className="relative w-full overflow-hidden rounded-xl"
               style={{ aspectRatio: '16/9' }}

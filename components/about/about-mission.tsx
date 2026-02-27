@@ -96,13 +96,13 @@ export default function AboutMission() {
                   className="absolute inset-0 pointer-events-none bg-ambient-glow"
 
                 />
-                <div className="flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8 text-black/80">
+                <div className="flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8 text-black/60">
                   <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-brand" />
                   <span className="font-semibold uppercase tracking-widest text-[10px] sm:text-xs">Based in Plano, Texas</span>
                 </div>
 
                 <h3 className="text-xl sm:text-2xl font-bold text-black mb-4 sm:mb-6">What Sets Us Apart</h3>
-                <p className="text-black/80 mb-6 sm:mb-8 text-base sm:text-lg">
+                <p className="text-black/60 mb-6 sm:mb-8 text-base sm:text-lg">
                   Unlike generic call systems, Amplit AI understands dental workflows:
                 </p>
 

@@ -146,7 +146,7 @@ export default function Navigation() {
                                     <Link
                                       key={child.label}
                                       href={child.href}
-                                      className="block px-4 py-3 text-[14px] font-medium text-black/80 rounded-xl hover:text-brand hover:bg-brand/5 transition-all active:scale-[0.98]"
+                                      className="block px-4 py-3 text-[14px] font-medium text-black/60 rounded-xl hover:text-brand hover:bg-brand/5 transition-all active:scale-[0.98]"
                                       onClick={() => setIsOpen(false)}
                                     >
                                       {child.label}
@@ -171,7 +171,7 @@ export default function Navigation() {
                 </div>
 
                 <motion.div
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3, duration: 0.3 }}
                   className="pt-6 border-t border-gray-100"

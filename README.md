@@ -249,7 +249,7 @@ export default function NewComponent() {
           <h2 className="text-4xl font-bold text-black mb-4">
             Section <span className="gradient-text">Title</span>
           </h2>
-          <p className="text-black/80 text-lg">Description</p>
+          <p className="text-black/60 text-lg">Description</p>
         </motion.div>
       </div>
     </section>

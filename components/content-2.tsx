@@ -72,7 +72,7 @@ export default function ContentSection() {
                                 height={929}
                             />
                             <Image
-                                src="/charts-light.webp"
+                                src="./charts-light.webp"
                                 className="rounded-[12px] shadow dark:hidden"
                                 alt="payments illustration light"
                                 width={1207}

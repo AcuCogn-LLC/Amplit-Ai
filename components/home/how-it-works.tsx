@@ -92,7 +92,7 @@ function ChatVisual() {
     <div className="flex flex-col justify-center gap-3 w-full px-4 md:px-8">
       {bubbles.map((b, i) => (
         <div key={i} className={`flex ${b.from === 'user' ? 'justify-end' : 'justify-start'}`}>
-          <div className={`px-4 py-2 rounded-2xl text-xs md:text-sm shadow-sm max-w-[80%] ${b.from === 'user' ? 'bg-brand text-white' : 'bg-white border text-black/80'
+          <div className={`px-4 py-2 rounded-2xl text-xs md:text-sm shadow-sm max-w-[80%] ${b.from === 'user' ? 'bg-brand text-white' : 'bg-white border text-black/60'
             }`}>
             {b.text}
           </div>
@@ -131,8 +131,7 @@ function NotifyVisual() {
       {/* Notification cards */}
       {[
         { label: 'Appointment booked', sub: 'Sarah M. — Thu 10:30 AM', color: 'bg-brand text-white' },
-        { label: 'PMS synced', sub: 'Dentrix updated automatically', color: 'bg-white border border-brand/20 text-black/80' },
-        { label: 'Team notified', sub: 'Front desk alerted', color: 'bg-white border border-brand/20 text-black/80' },
+        { label: 'Team notified', sub: 'Front desk alerted', color: 'bg-white border border-brand/20 text-black/60' },
       ].map((n, i) => (
         <div key={i} className={`w-full max-w-[220px] px-4 py-2.5 rounded-xl text-left shadow-sm ${n.color}`}>
           <p className="text-xs md:text-sm font-semibold">{n.label}</p>
@@ -235,7 +234,7 @@ export default function HowItWorks() {
                   <h3 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                     {step.title}
                   </h3>
-                  <p className="text-gray-600 mb-6 md:mb-8 text-base sm:text-base md:text-lg leading-relaxed">
+                  {/* <p className="text-gray-600 mb-6 md:mb-8 text-base sm:text-base md:text-lg leading-relaxed">
                     {step.description}
                   </p>
                   <ul className="space-y-3">
@@ -245,7 +244,7 @@ export default function HowItWorks() {
                         {bullet}
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
 
                 {/* Visual Content: Bottom on mobile, alternates on desktop */}

@@ -34,7 +34,7 @@ export default function CTASection() {
             <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold text-black leading-tight mb-5">
               Meet Your 24/7 AI Front Desk Assistant
             </h2>
-            <p className="text-black/80 text-base sm:text-base md:text-lg mb-8 sm:mb-10 leading-relaxed">
+            <p className="text-black/60 text-base sm:text-base md:text-lg mb-8 sm:mb-10 leading-relaxed">
               Dentsi answers every call instantly, understands patient needs, and books appointments — just like a trained front desk staff member. Start capturing every opportunity today.
             </p>
             <Link

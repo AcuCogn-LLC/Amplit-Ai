@@ -114,7 +114,7 @@ export default function AboutValues() {
                   <h3 className={`font-bold text-black ${isLast ? 'text-lg sm:text-xl mb-1.5 md:mb-2' : 'text-base mb-1.5'}`}>
                     {f.title}
                   </h3>
-                  <p className={`text-black/80 leading-relaxed ${isLast ? 'text-sm sm:text-base max-w-2xl' : 'text-sm'}`}>
+                  <p className={`text-black/60 leading-relaxed ${isLast ? 'text-sm sm:text-base max-w-2xl' : 'text-sm'}`}>
                     {f.description}
                   </p>
                 </div>
