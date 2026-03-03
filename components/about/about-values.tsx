@@ -57,11 +57,10 @@ export default function AboutFeatures() {
         >
        
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-black tracking-tight leading-tight mb-6">
-            Purpose-built for <br />
-            <span className="text-brand">healthcare operations.</span>
+            Our Core Values
           </h2>
           <p className="text-[17px] text-black/60 leading-relaxed font-light">
-            We aren&apos;t a generic chatbot company. We are a specialized team building vertical AI infrastructure tailored specifically for the rigorous demands of dental and medical practices.
+            The principles that guide our innovation, service, and commitment to dental and healthcare excellence.
           </p>
         </motion.div>
 

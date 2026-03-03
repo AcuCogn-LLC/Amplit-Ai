@@ -2,7 +2,7 @@
 
 import { motion, Variants } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Shield, CheckCircle2, Quote, Activity, PhoneIncoming, CalendarCheck, Zap } from 'lucide-react';
+import { Shield, CheckCircle2,  Activity, PhoneIncoming, CalendarCheck, User } from 'lucide-react';
 
 export default function AboutMission() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -96,7 +96,7 @@ export default function AboutMission() {
                 </div>
 
                 {/* AI Activity Feed */}
-                <div className="relative h-[240px] overflow-hidden -mx-2 px-2">
+                <div className="relative h-60 overflow-hidden -mx-2 px-2">
                   <div className="absolute top-0 left-0 right-0 h-10 bg-linear-to-b from-white to-transparent z-10 pointer-events-none" />
                   <div className="absolute bottom-0 left-0 right-0 h-10 bg-linear-to-t from-white to-transparent z-10 pointer-events-none" />
 
@@ -122,7 +122,7 @@ export default function AboutMission() {
                     ].map((item, i) => (
                       <div
                         key={i}
-                        className="flex items-center justify-between p-4 bg-white/50 border border-black/[0.03] rounded-2xl hover:border-brand/20 transition-colors shrink-0"
+                        className="flex items-center justify-between p-4 bg-white/50 border border-black/3 rounded-2xl hover:border-brand/20 transition-colors shrink-0"
                       >
                         <div className="flex items-center gap-4">
                           <div className={`p-2 rounded-full text-white ${item.color} shadow-sm`}>
@@ -141,7 +141,7 @@ export default function AboutMission() {
                   <div className="flex -space-x-3">
                     {[1, 2, 3, 4].map(i => (
                       <div key={i} className={`w-9 h-9 rounded-full border-4 border-white bg-slate-100 flex items-center justify-center text-[10px] font-bold text-black/40 shadow-sm`}>
-                        DR
+                        <User className="w-4 h-4" />
                       </div>
                     ))}
                   </div>
