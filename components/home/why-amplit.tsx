@@ -72,7 +72,7 @@ export default function WhyAmplit() {
                   style={{ backdropFilter: 'blur(8px)', borderRadius: 20 }}
                 >
                   <Image
-                    src="/Dashboard.png"
+                    src="./Dashboard.png"
                     alt="Dashboard"
                     width={1920}
                     height={1080}
