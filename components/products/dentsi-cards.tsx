@@ -12,7 +12,7 @@ const CARDS = [
     {
         subheading: 'Intelligent Scheduling',
         heading: 'Automate appointment booking and update your calendar',
-        image: '/trust-image/scheduling.png',
+        image: '/trust-image/Scheduling.png',
     },
     {
         subheading: 'Natural Conversations',
