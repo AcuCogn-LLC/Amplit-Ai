@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Send, Bot } from 'lucide-react';
+import Image from 'next/image';
 
 
 interface QA {
@@ -174,10 +175,17 @@ export default function Chatbot() {
                         whileTap={{ scale: 0.95 }}
                         transition={{ type: 'spring', stiffness: 400, damping: 20 }}
                         onClick={() => setIsOpen(true)}
-                        className="fixed bottom-6 right-6 z-9999 w-14 h-14 rounded-full bg-brand text-white shadow-lg shadow-brand/30 flex items-center justify-center chatbot-pulse cursor-pointer"
+                        className="fixed bottom-6 right-6 z-9999 w-14 h-14 rounded-full overflow-hidden bg-white text-white shadow-lg shadow-brand/30 flex items-center justify-center chatbot-pulse cursor-pointer"
                         aria-label="Open chat"
                     >
-                        <MessageCircle className="w-6 h-6" />
+                       <Image
+
+                            src="/images/icon.png"
+                            alt="Chat with Amplit AI"
+                            width={100}
+                            height={100}
+                            className="scale-125"
+                            />
                     </motion.button>
                 )}
             </AnimatePresence>

@@ -12,7 +12,7 @@ const HERO_CONTENT = {
   headline: 'Amplifying',
   headlineHighlight: 'Healthcare Intelligence',
   subtitle:
-    'Your AI-powered dental front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.',
+    'Your AI-powered front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.',
   ctaPrimary: 'See In Action',
   ctaPrimaryActive: 'Pause Demo',
   ctaSecondary: 'Watch Demo',

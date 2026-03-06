@@ -7,22 +7,22 @@ import Link from 'next/link';
 import { BorderBeam } from '@/components/ui/border-beam';
 
 const SECTION_CONTENT = {
-  headline: 'What Sets Us Apart',
+  headline: 'What makes us different',
   description:
     "Amplit AI doesn\u2019t just answer calls \u2014 it shows you exactly how those calls impact your revenue. You get full visibility into what your front desk might be missing.",
   ctaText: 'Explore',
   ctaHref: '/about',
-};
+};  
 
 const capabilities = [
   {
     icon: Brain,
-    title: 'Dental Workflow Intelligence',
-    description: 'Unlike generic call systems, Amplit AI understands dental workflows',
+    title: 'HealthCare Workflow Intelligence',
+    description: 'Unlike generic call systems, Amplit AI understands HealthCare workflows',
     features: [
-      'Knows dental procedures & patient queries',
+      'Knows HealthCare procedures & patient queries',
       'Handles common patient questions',
-      'Customizable for your clinic operations',
+      'Customizable for your clinical operations',
     ],
   },
   {
@@ -127,14 +127,14 @@ export default function CoreCapabilities() {
 
           <div className="relative flex flex-col lg:flex-row  ">
             {/* ── Left: Animated Visualization ── */}
-            <div className="lg:w-5/12 flex flex-col justify-between p-6 sm:p-10 lg:p-14">
+            <div className="lg:w-5/12 flex flex-col gap-8 p-6 sm:p-10 lg:p-14">
               <AnimatedViz />
-              <div className="mt-8">
+              <div className="">
                 <motion.h2
                   initial={{ opacity: 0, y: 20 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: 0.2 }}
-                  className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4"
+                  className="text-2xl sm:text-3xl md:text-4xl uppercase font-bold text-gray-900 leading-tight mb-4"
                 >
                   {SECTION_CONTENT.headline}
                 </motion.h2>

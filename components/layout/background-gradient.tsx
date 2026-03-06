@@ -11,7 +11,7 @@ export default function BackgroundGradient({ children }: BackgroundGradientProps
         className="fixed inset-0 -z-10"
         style={{
           background:
-            'radial-gradient(125% 125% at 50% 10%, #ffffff 35%, #6594B1 100%)',
+            'radial-gradient(125% 125% at 50% 10%, #ffffff 35%, #547792 100%)',
         }}
       />
 
@@ -20,3 +20,4 @@ export default function BackgroundGradient({ children }: BackgroundGradientProps
   );
 }
 
+// #6984A9 9CD5FF

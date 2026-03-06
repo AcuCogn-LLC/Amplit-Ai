@@ -59,9 +59,9 @@ export default function AboutFeatures() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight leading-tight mb-6">
             Our Core Values
           </h2>
-          <p className="text-[15px] md:text-[17px] text-[#4e5157] font-medium leading-relaxed">
+          {/* <p className="text-[15px] md:text-[17px] text-[#4e5157] font-medium leading-relaxed">
             The principles that guide our innovation, service, and commitment to dental and healthcare excellence.
-          </p>
+          </p> */}
         </motion.div>
 
         {/* 3x3 Grid */}

@@ -1,111 +1,91 @@
-'use client';
+'use client'
 
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { motion } from "framer-motion"
 
 const TRUST_CONTENT = {
-  headline:
-    'Is your dental front desk overwhelmed with calls, scheduling, and daily tasks?',
+  video: "/videos/Dentsi-video.mp4",
+  floatingCard: {
+    title: "24/7 Call Handling",
+    subtitle: "Never miss a patient call",
+  },
+  headline: "Your AI Front Desk That Never Miss a Patient",
   description:
-    'With Dentsi, every call is answered, every appointment is managed, and your practice stays supported around the clock.',
-};
-
-const PARTNER_LOGOS = [
-     {
-    name: 'Appointment',
-    logo: '/trust-image/multi.png',
-  },
-  {
-    name: 'Call',
-    logo: '/trust-image/call.png',
-  },
-  {
-    name: 'Book',
-    logo: '/trust-image/Book.png',
-  },
-  {
-    name: 'Patient ',
-    logo: '/trust-image/patient.png',
-  },
-
-];
-
-// Duplicate for seamless vertical loop
-const MARQUEE_ITEMS = [...PARTNER_LOGOS, ...PARTNER_LOGOS];
+    "Dentsi handles patient calls, schedules appointments, and manages front desk tasks automatically so your staff can focus on patient care instead of administrative work.",
+  points: [
+    "Answers every patient call instantly",
+    "Books and manages appointments automatically",
+    "Works 24/7 including weekends and holidays",
+    "Eliminates missed calls and lost patients",
+  ],
+}
 
 export default function DentsiTrust() {
-    return (
-        <section className="relative w-full">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+  return (
+    <section className="w-full relative py-10">
+      <div className="max-w-7xl mx-auto px-6">
 
-                {/* Main Card */}
-                <div
-                    className="flex flex-col xl:flex-row bg-white rounded-3xl p-5 sm:p-7 lg:p-8 items-stretch gap-6 lg:gap-8 border border-brand/60"
-                    style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04), 0 4px 24px rgba(0,0,0,0.03)' }}
-                >
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-                    {/* Left — Text Content */}
-                    <motion.div
-                        initial={{ opacity: 0, x: -24 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.7, ease: 'easeOut' }}
-                        className="shrink-0 flex flex-col justify-center w-full xl:w-[42%]"
-                    >
-                        {/* Brand accent bar */}
-                        <div className="w-10 h-1 rounded-full bg-brand mb-5" />
-
-                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight leading-snug mb-3">
-                            {TRUST_CONTENT.headline}
-                        </h3>
-
-                        <p className="text-[15px] md:text-[17px] text-[#4e5157] font-medium leading-relaxed max-w-md">
-                            {TRUST_CONTENT.description}
-                        </p>
-                    </motion.div>
-                    <div
-                        className="flex-1 relative overflow-hidden flex items-center"
-                        style={{
-                            maskImage: 'linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)',
-                            WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)',
-                        }}
-                    >
-                        <motion.div
-                            className="flex gap-10 sm:gap-5 shrink-0"
-                            animate={{ x: ['0%', '-50%'] }}
-                            transition={{
-                                x: {
-                                    duration: 12,
-                                    repeat: Infinity,
-                                    ease: 'linear',
-                                },
-                            }}
-                        >
-                            {MARQUEE_ITEMS.map((partner, i) => (
-                                <div
-                                    key={`${partner.name}-${i}`}
-                                    className="group relative overflow-hidden rounded-2xl bg-brand-bg1 border border-brand/10 flex items-center justify-center cursor-default shrink-0 w-56 h-40 sm:w-72 sm:h-48"
-                                    style={{ boxShadow: '0 2px 8px rgba(101,148,177,0.08)' }}
-                                >
-                                    <Image
-                                        src={partner.logo}
-                                        alt={partner.name}
-                                        width={1920}
-                                        height={1080}
-                                        className="w-full h-full object-contain grayscale-100 mix-blend-multiply transition-transform duration-500 group-hover:scale-[1.05]"
-                                    />
-
-                                    {/* Label chip on hover */}
-                                    <span className="absolute bottom-2 left-2 text-[11px] font-semibold text-brand bg-white/80 backdrop-blur-sm px-2.5 py-1 rounded-lg opacity-100 transition-opacity duration-300 z-20">
-                                        {partner.name}
-                                    </span>
-                                </div>
-                            ))}
-                        </motion.div>
-                    </div>
-
-                </div>
+          {/* Image Side */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="relative"
+          >
+            <div className="rounded-3xl overflow-hidden border border-brand/20 ">
+              <video
+              src={TRUST_CONTENT.video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full object-cover scale-110 opacity-100"
+            
+            ></video>
             </div>
-        </section>
-    );
+
+            {/* floating card */}
+            <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg px-4 py-3 border border-gray-100">
+              <p className="text-sm font-semibold text-gray-900">
+                {TRUST_CONTENT.floatingCard.title}
+              </p>
+              <p className="text-xs text-gray-500">
+                {TRUST_CONTENT.floatingCard.subtitle}
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Content Side */}
+          <motion.div
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <div className="w-10 h-1 rounded-full bg-brand mb-6" />
+
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-6">
+              {TRUST_CONTENT.headline}
+            </h2>
+
+            <p className="text-gray-600 text-lg leading-relaxed mb-8">
+              {TRUST_CONTENT.description}
+            </p>
+
+            <div className="space-y-4">
+              {TRUST_CONTENT.points.map((point) => (
+                <div key={point} className="flex gap-3 items-start">
+                  <div className="w-2 h-2 rounded-full bg-brand mt-2"></div>
+                  <p className="text-gray-700">{point}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+        </div>
+      </div>
+    </section>
+  )
 }

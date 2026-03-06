@@ -12,7 +12,7 @@ export default function DentsiPage() {
       <DentsiHero />
       <DentsiTrust />
       <DentsiCards />
-      <DentsiBenefits />
+      {/* <DentsiBenefits /> */}
       <ProductCTA />
     </>
   );

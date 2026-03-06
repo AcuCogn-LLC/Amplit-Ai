@@ -29,7 +29,7 @@ const steps = [
     step: '02',
     icon: MessageSquareText,
     title: 'Amplit AI Answers',
-    description: 'Our natural voice AI answers immediately, understanding dental terminology and clinic protocols.',
+    description: 'Our natural voice AI answers immediately, understanding HealthCare terminology and clinical protocols.',
     bullets: ['Human-like conversational voice', 'Custom trained on your workflows', 'Can answer FAQs and triage'],
     video: '/videos/step-02.mp4',
   },
@@ -74,7 +74,7 @@ export default function HowItWorks() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
             {SECTION_CONTENT.headline}
           </h2>
-          <p className="text-[#4e5157] font-medium text-[15px] md:text-[17px] mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-[#4e5157] font-medium text-[15px] md:text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
             {SECTION_CONTENT.description}
           </p>
         </div>
