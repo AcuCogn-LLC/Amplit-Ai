@@ -106,7 +106,7 @@ export default function HeroSection() {
               className="flex flex-wrap items-center justify-center md:justify-start gap-4"
             >
               {/* See In Action button */}
-              <button
+              {/* <button
                 onClick={togglePlay}
                 className="relative z-50 inline-flex items-center gap-3 px-6 py-3 bg-brand border border-transparent text-white font-medium text-sm rounded-full shadow-[0_4px_14px_rgba(var(--brand-rgb),0.2)] hover:shadow-[0_6px_20px_rgba(var(--brand-rgb),0.25)] transition-all group cursor-pointer"
               >
@@ -118,7 +118,7 @@ export default function HeroSection() {
                   )}
                 </span>
                 {isPlaying ? HERO_CONTENT.ctaPrimaryActive : HERO_CONTENT.ctaPrimary}
-              </button>
+              </button> */}
 
               <Dialog>
                 <DialogTrigger asChild>
