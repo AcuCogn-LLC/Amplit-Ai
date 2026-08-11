@@ -87,7 +87,7 @@ export default function HeroSection() {
             {HERO_CONTENT.headline} <span className="text-brand">{HERO_CONTENT.headlineHighlight}</span>
           </motion.h1>
 
-          {/* Subtitle */}
+     
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
