@@ -65,6 +65,14 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/terms-and-conditions"
+                  className="text-[#4e5157] font-medium text-sm hover:text-brand transition-colors"
+                >
+                  Terms and Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
