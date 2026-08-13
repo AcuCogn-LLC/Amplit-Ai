@@ -72,12 +72,20 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">4. Mobile Information Sharing — A2P 10DLC Required Disclosure</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">4. Mobile Information &amp; SMS Privacy</h2>
             <p className="mb-4">
-              No mobile information will be shared with third parties or affiliates for marketing or promotional purposes.
+              This section governs how we handle mobile information and text messaging data collected through our SMS program (Dentsi Dental Practice Assistant).
             </p>
+            <blockquote className="border-l-4 border-brand pl-4 bg-gray-50 py-3 pr-3 mb-4">
+              <p className="mb-2">
+                No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.
+              </p>
+              <p>
+                All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+              </p>
+            </blockquote>
             <p>
-              All text messaging originator opt-in data and consent records are kept private and will not be shared with any third parties under any circumstances. Mobile phone numbers may be shared only with our SMS service provider (Twilio) strictly for the purpose of delivering messages, and only under confidentiality obligations that prohibit the provider from using the data for any other purpose (A2P 10DLC Privacy Policy Requirements; Aircall Compliance).
+              Mobile phone numbers may be shared only with our SMS service provider (Twilio) strictly for the purpose of delivering messages, and only under confidentiality obligations that prohibit the provider from using the data for any other purpose (A2P 10DLC Privacy Policy Requirements; Aircall Compliance).
             </p>
           </section>
 

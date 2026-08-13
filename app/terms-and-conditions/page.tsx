@@ -82,7 +82,23 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">6. Customer Data and User Content</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">6. SMS &amp; Mobile Messaging Terms</h2>
+            <p className="mb-4">
+              These SMS &amp; Mobile Messaging Terms apply to any text message you receive from us through our SMS program. By opting in, you agree to receive text messages as described below.
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Program Name and Purpose:</strong> The SMS program is provided by Acucogn LLC d/b/a Amplit AI under the name <strong>Dentsi Dental Practice Assistant</strong>. Messages are sent solely for appointment reminders and administrative updates related to your dental care.</li>
+              <li><strong>How to Opt In:</strong> You opt in by providing your mobile phone number and confirming your consent on our contact or booking forms. Consent is never pre-checked.</li>
+              <li><strong>How to Opt Out:</strong> You may unsubscribe at any time by replying <strong>STOP</strong> to any message you receive. After you opt out, we will stop sending you text messages.</li>
+              <li><strong>How to Get Help:</strong> For support, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@amplit.ai" className="text-brand hover:underline">support@amplit.ai</a>.</li>
+              <li><strong>Message Frequency:</strong> Message frequency varies based on your appointment schedule.</li>
+              <li><strong>Rates:</strong> Message and data rates may apply for any messages sent or received. Please check with your mobile carrier for details.</li>
+              <li><strong>Carrier Liability:</strong> Carriers are not liable for delayed or undelivered messages.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-black mb-4">7. Customer Data and User Content</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Customers retain their rights in User Content they submit, subject to the rights necessary for Amplit AI to provide, secure, maintain, and support the Services.</li>
               <li>You represent that you have all rights, permissions, consents, and lawful authority necessary for Amplit AI to process User Content as required to provide the Services.</li>
@@ -91,7 +107,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">7. AI Outputs</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">8. AI Outputs</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>The Services may generate responses, summaries, classifications, scheduling actions, or other outputs using artificial intelligence. Outputs may be inaccurate or incomplete. Customers and Users are responsible for appropriate review and validation before relying on outputs.</li>
               <li>Dentsi must not be relied upon as the sole source for emergency decisions, diagnosis, treatment decisions, or other matters requiring professional clinical judgment.</li>
@@ -99,7 +115,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">8. Voice, SMS, and Messaging</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">9. Voice, SMS, and Messaging</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Where enabled, the Services may support inbound or outbound calls, recording, transcription, SMS/MMS, reminders, confirmations, and other healthcare-related communications.</li>
               <li>Customers are responsible for determining whether recording, transcription, artificial/prerecorded voice, SMS, or other communications require notice or consent.</li>
@@ -111,7 +127,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">9. Acceptable Use</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">10. Acceptable Use</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>The Services may be used only for lawful healthcare operations and legitimate business purposes consistent with these Terms. Unless separately agreed, outbound features are intended for operational communications such as reminders, confirmations, recalls, reactivation, post-visit follow-up, and related patient engagement.</li>
               <li>The Services must not be used for emergency communications, unlawful telemarketing, debt collection, political campaigns, purchased-lead outreach, or other prohibited uses.</li>
@@ -119,7 +135,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">10. Intellectual Property</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">11. Intellectual Property</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Amplit AI and its licensors own the Services and related software, interfaces, designs, documentation, trademarks, copyrights, technology, and other intellectual property, except for Customer-owned User Content.</li>
               <li>Nothing in these Terms transfers Amplit AI intellectual property to you. Dentsi and Amplit AI branding may not be used without authorization.</li>
@@ -127,21 +143,21 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">11. Feedback</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">12. Feedback</h2>
             <p>
               If you provide suggestions or feedback, you grant Amplit AI the right to use that feedback without restriction or compensation, provided confidential information is not disclosed contrary to applicable agreements.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">12. Third-Party Services</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">13. Third-Party Services</h2>
             <p>
               The Services may integrate with third-party systems, communications providers, scheduling systems, EHR systems, payment providers, hosting providers, analytics tools, or other services. Third-party services are subject to their own terms and policies, and Amplit AI is not responsible for services outside its control.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">13. Fees and Subscriptions</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">14. Fees and Subscriptions</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Paid Services are governed by the applicable subscription, order form, or agreement.</li>
               <li>Subscriptions may renew automatically unless cancelled under applicable terms.</li>
@@ -152,14 +168,14 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">14. Confidentiality</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">15. Confidentiality</h2>
             <p>
               Each party may receive confidential information from the other. Each party will use reasonable measures to protect confidential information and use it only for permitted purposes. Standard exceptions apply for information that is public, independently developed, lawfully received without confidentiality restrictions, or required to be disclosed by law.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">15. Privacy and Data Protection</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">16. Privacy and Data Protection</h2>
             <p>
               Use of the Services is also subject to the Amplit AI Privacy Policy. Healthcare customers may have additional obligations under HIPAA, state privacy laws, and agreements with patients.
             </p>
@@ -169,21 +185,21 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">16. Security</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">17. Security</h2>
             <p>
               Amplit AI maintains administrative, technical, and organizational safeguards designed to protect information processed through the Services. No service can guarantee absolute security. Customers remain responsible for appropriate account security and access controls.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">17. Availability and Changes</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">18. Availability and Changes</h2>
             <p>
               Amplit AI may modify, suspend, or discontinue portions of the Services, including features and integrations. We do not guarantee uninterrupted, error-free, or universal compatibility.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">18. Disclaimers</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">19. Disclaimers</h2>
             <p>
               TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICES ARE PROVIDED ON AN 'AS IS' AND 'AS AVAILABLE' BASIS. AMPLIT AI DISCLAIMS WARRANTIES NOT EXPRESSLY STATED IN THESE TERMS, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
             </p>
@@ -193,7 +209,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">19. Limitation of Liability</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">20. Limitation of Liability</h2>
             <p>
               TO THE MAXIMUM EXTENT PERMITTED BY LAW, AMPLIT AI WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, REVENUE, GOODWILL, DATA, OR BUSINESS OPPORTUNITIES ARISING FROM OR RELATED TO THE SERVICES.
             </p>
@@ -203,14 +219,14 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">20. Indemnification</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">21. Indemnification</h2>
             <p>
               To the extent permitted by law and subject to any applicable customer agreement, you agree to defend, indemnify, and hold harmless Amplit AI and its officers, employees, agents, suppliers, and service providers from claims, losses, liabilities, penalties, costs, and reasonable attorneys' fees arising from unlawful use, violation of these Terms, User Content, or failure to obtain legally required consent for communications initiated through the Services.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">21. Suspension and Termination</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">22. Suspension and Termination</h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>Amplit AI may suspend or terminate access for material violations, nonpayment, security or legal risk, misuse of communications features, or conduct that exposes Amplit AI or its providers to material risk.</li>
               <li>Upon termination, access will cease subject to applicable transition, export, retention, or deletion provisions in the applicable agreement.</li>
@@ -218,21 +234,21 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">22. Governing Law and Disputes</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">23. Governing Law and Disputes</h2>
             <p>
               These Terms will be governed by applicable law without regard to conflict-of-law principles, except where a separate written agreement provides otherwise. Any arbitration, venue, or jurisdiction terms in a signed customer agreement or order form will control if they conflict with these general Terms.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">23. Changes to These Terms</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">24. Changes to These Terms</h2>
             <p>
               Amplit AI may update these Terms from time to time. Material changes may be communicated through the website, account notifications, email, or other reasonable means.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">24. Contact Information</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">25. Contact Information</h2>
             <p className="mb-4">
               <strong>Business:</strong> Acucogn LLC d/b/a Amplit AI<br/>
               <strong>Product:</strong> Dentsi<br/>
@@ -245,7 +261,7 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">25. Legal Review</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">26. Legal Review</h2>
             <p className="text-sm italic text-gray-500">
               These Terms are a business draft using the Dentina.AI Service Terms of Use as a structural reference and adapted for Acucogn LLC d/b/a Amplit AI and its Dentsi product. They are not legal advice. Because Dentsi may process healthcare information, PHI, telephone communications, and SMS messages, qualified U.S. healthcare, technology, privacy, and communications counsel should review the final Terms before publication.
             </p>

@@ -59,6 +59,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/contact"
+                  className="text-[#4e5157] font-medium text-sm hover:text-brand transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/privacy-policy"
                   className="text-[#4e5157] font-medium text-sm hover:text-brand transition-colors"
                 >
