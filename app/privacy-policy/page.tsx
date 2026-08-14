@@ -55,20 +55,19 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">3. How End Users Consent to Receive SMS Messages</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">3. Text Messaging</h2>
             <p className="mb-4">
-              End users opt in to receive SMS messages by visiting <a href="https://www.amplit.ai" className="text-brand hover:underline">https://www.amplit.ai</a>, completing the appointment booking or contact form, entering their mobile phone number, and explicitly checking a consent checkbox that reads:
+              If you call a dental practice that uses Dentsi's AI phone assistant to book, reschedule, or manage an appointment, the assistant will ask you directly, by voice, whether you'd like to receive SMS text messages for appointment confirmations and reminders. Your verbal "yes" to that question is your consent; a "no" means we will not text you, and you'll receive confirmations and reminders by email instead. You can change your mind at any time by replying STOP to any text message you receive from us — no further messages will be sent to that number.
             </p>
-            <blockquote className="border-l-4 border-brand pl-4 italic bg-gray-50 py-2 pr-2 mb-4">
-              "I agree to receive SMS messages from Acucogn LLC DBA Amplit AI regarding my appointments and front desk communications. Message and data rates may apply. Reply STOP to opt out."
-            </blockquote>
             <p className="mb-4">
-              The checkbox is unchecked by default. End users must manually check the box to provide consent. The mobile phone number is provided directly by the end user at the time of booking or contact.
+              Message frequency varies but is typically 1–4 messages per appointment cycle. Message and data rates may apply. No marketing or promotional content is sent via SMS — only messages tied to an appointment you booked.
             </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Message content and frequency:</strong> End users receive appointment reminders, confirmation requests, rescheduling notices, and front desk notifications. Message frequency varies but is typically 1–4 messages per appointment cycle. No marketing or promotional content is sent via SMS.</li>
-              <li><strong>Opt-out and help:</strong> End users can opt out at any time by replying STOP to any message. Upon opt-out, no further SMS messages will be sent. End users can reply HELP for support and contact information.</li>
-            </ul>
+            <p className="mb-4">
+              No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent will not be shared with any third party, except that your phone number is shared with Twilio, our SMS delivery provider, strictly for the purpose of delivering messages, under confidentiality agreements.
+            </p>
+            <p>
+              SMS opt-in and consent records are retained for the duration required by carrier A2P 10DLC requirements.
+            </p>
           </section>
 
           <section>

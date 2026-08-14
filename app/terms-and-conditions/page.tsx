@@ -82,19 +82,22 @@ export default function TermsAndConditionsPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-4">6. SMS &amp; Mobile Messaging Terms</h2>
+            <h2 className="text-2xl font-bold text-black mb-4">6. SMS Program Terms</h2>
             <p className="mb-4">
-              These SMS &amp; Mobile Messaging Terms apply to any text message you receive from us through our SMS program. By opting in, you agree to receive text messages as described below.
+              The Dentsi Dental Practice Assistant sends SMS messages solely for appointment reminders and administrative updates related to your dental care.
             </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Program Name and Purpose:</strong> The SMS program is provided by Acucogn LLC d/b/a Amplit AI under the name <strong>Dentsi Dental Practice Assistant</strong>. Messages are sent solely for appointment reminders and administrative updates related to your dental care.</li>
-              <li><strong>How to Opt In:</strong> You opt in by providing your mobile phone number and confirming your consent on our contact or booking forms. Consent is never pre-checked.</li>
-              <li><strong>How to Opt Out:</strong> You may unsubscribe at any time by replying <strong>STOP</strong> to any message you receive. After you opt out, we will stop sending you text messages.</li>
-              <li><strong>How to Get Help:</strong> For support, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@amplit.ai" className="text-brand hover:underline">support@amplit.ai</a>.</li>
-              <li><strong>Message Frequency:</strong> Message frequency varies based on your appointment schedule.</li>
-              <li><strong>Rates:</strong> Message and data rates may apply for any messages sent or received. Please check with your mobile carrier for details.</li>
-              <li><strong>Carrier Liability:</strong> Carriers are not liable for delayed or undelivered messages.</li>
-            </ul>
+            <p className="mb-4">
+              Consent to receive these messages is given verbally, during a phone call with the practice's AI phone assistant, when the assistant asks whether it may text you and you say yes. Consent is never assumed or defaulted — the assistant asks the question every time a phone number is collected.
+            </p>
+            <p className="mb-4">
+              You can opt out at any time by replying STOP to any message; after that, we will stop sending you text messages. Reply HELP for help, or contact <a href="mailto:support@amplit.ai" className="text-brand hover:underline">support@amplit.ai</a>.
+            </p>
+            <p className="mb-4">
+              Message frequency varies based on your appointment schedule. Message and data rates may apply — check with your mobile carrier for details. Carriers are not liable for delayed or undelivered messages.
+            </p>
+            <p>
+              We honor STOP, HELP, and consent revocation requests, and never use this messaging program for unlawful spam, fraudulent communications, purchased or scraped recipient lists, or unrelated marketing content.
+            </p>
           </section>
 
           <section>
