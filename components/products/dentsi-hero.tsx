@@ -17,22 +17,58 @@ const HERO_CONTENT = {
   ctaPrimaryActive: 'Pause Demo',
   ctaSecondary: 'Watch Demo',
   videoTitle: 'Product demo video',
-  annotation: 'Talk with Amplit Ai',
+  annotation: 'Talk with Dentsi',
   heroVideo: '/videos/Dentsi-video.mp4',
-  captionLabel: 'Amplit AI is speaking',
+  captionLabel: 'Dentsi is speaking',
 };
 
 const CAPTIONS = [
-  { start: 0, end: 3.5, text: "The stale smell of old beer lingers." },
-  { start: 3.5, end: 7, text: "It takes heat to bring out the odor." },
-  { start: 7, end: 10.5, text: "A cold dip restores health and zest." },
-  { start: 10.5, end: 14, text: "A salt pickle tastes fine with ham." },
-  { start: 14, end: 17.5, text: "Tacos al pastor are my favorite." },
-  { start: 17.5, end: 21, text: "A zestful food is the hot cross bun." },
-  { start: 21, end: 25, text: "The birch canoe slid on the smooth planks." },
-  { start: 25, end: 29, text: "Glue the sheet to the dark blue background." },
-  { start: 29, end: 35, text: "It's easy to tell the depth of a well." },
-  { start: 35, end: 60, text: "🎧 Listening..." },
+  { start: 2, end: 8, text: "Thank you for calling Smile Plus Dental. My name is Dentsi. How can I help you today?" },
+  { start: 8, end: 11, text: "I would like to book an appointment." },
+  { start: 11, end: 16, text: "Of course I'd be happy to help. Are you a new or existing patient with us?" },
+  { start: 16, end: 19, text: "I am a new patient." },
+  { start: 19, end: 24, text: "Great. Let's get you registered. May I have your full name please, Lisa?" },
+  { start: 24, end: 31, text: "Park LISAPA RK." },
+  { start: 31, end: 34, text: "That's Lisa Park. Is that right?" },
+  { start: 34, end: 36, text: "That's correct." },
+  { start: 36, end: 40, text: "Thank you. And may I have your date of birth?" },
+  { start: 40, end: 44, text: "11/16/2007." },
+  { start: 44, end: 49, text: "Thanks. That's November 16th, 2007. Is that correct?" },
+  { start: 49, end: 52, text: "That's correct." },
+  { start: 52, end: 59, text: "Is 1-469-670-2982 the best phone number to reach you?" },
+  { start: 59, end: 63, text: "No.  Can you update my number?" },
+  { start: 63, end: 68, text: "I can update your number. What is your new phone number please?" },
+  { start: 68, end: 75, text: "516-957-8453." },
+  { start: 75, end: 81, text: "Thanks. That's 516-957-8453. Is that right?" },
+  { start: 81, end: 85, text: "That's correct." },
+  { start: 85, end: 93, text: "Great, and what is your e-mail address? We'll use it to send your appointment confirmation reminders and new patient forms." },
+  { start: 93, end: 101, text: "My e-mail address is lpark8117@gmail.com." },
+  { start: 101, end: 105, text: "Thatslpark.8117@gmail.com is that." },
+  { start: 105, end: 109, text: "Right. No." },
+  { start: 109, end: 113, text: "I understand. Could you please spell it out for me again?" },
+  { start: 113, end: 123, text: "L park8117@gmail.com." },
+  { start: 123, end: 128, text: "Thatslpark8117@gmail.com is that right?" },
+  { start: 128, end: 132, text: "That's correct." },
+  { start: 132, end: 142, text: "Got that saved. Could you tell me the reason for your visit today? Are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific dental concerns?" },
+  { start: 142, end: 146, text: "I'm coming in for a routine cleaning." },
+  { start: 146, end: 150, text: "Understood. Will you be using dental insurance for this visit?" },
+  { start: 150, end: 153, text: "Yes." },
+  { start: 153, end: 159, text: "Got it. Could you please provide the name of your insurance carrier and your member ID?" },
+  { start: 159, end: 162, text: "Cigna Healthcare." },
+  { start: 162, end: 167, text: "Thanks. And what is your Cigna Healthcare member ID please?" },
+  { start: 167, end: 171, text: "817354." },
+  { start: 171, end: 176, text: "Thanks. That's 817-3554. Is that right?" },
+  { start: 176, end: 181, text: "That's correct." },
+  { start: 181, end: 186, text: "Thank you for that information. Do you have a preferred day or time for your appointment?" },
+  { start: 186, end: 192, text: "I'm looking for next week Tuesday at 4:00 PM." },
+  { start: 192, end: 210, text: "I have available slots on Tuesday, August 25th. I see Doctor James Park has openings at 12 PM, 12:30 PM, and 1:00 PMI don't see a 4:00 PM slot available with any doctor on that day. Would you like to choose from these available times or would you prefer a different day?" },
+  { start: 210, end: 217, text: "Can I have that Tuesday at 1:00 PM with Doctor Park?" },
+  { start: 217, end: 225, text: "I have you scheduled for Tuesday, August 25th at 1:00 PM with Doctor James Park for a routine cleaning. Does that sound right?" },
+  { start: 225, end: 228, text: "That's correct." },
+  { start: 228, end: 236, text: "Perfect, you'll receive a confirmation with all the details by text and e-mail. Is there anything else I can help you with today?" },
+  { start: 236, end: 239, text: "No, thank you." },
+  { start: 239, end: 243, text: "Thank you for choosing Smile Plus Dental. Have a wonderful day." },
+  { start: 243, end: 248, text: "Bye bye." },
 ];
 
 export default function HeroSection() {
@@ -87,7 +123,7 @@ export default function HeroSection() {
             {HERO_CONTENT.headline} <span className="text-brand">{HERO_CONTENT.headlineHighlight}</span>
           </motion.h1>
 
-     
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -105,7 +141,7 @@ export default function HeroSection() {
             className="flex flex-wrap items-center justify-center gap-4"
           >
             {/* See In Action button */}
-            {/* <button
+            <button
               onClick={togglePlay}
               className="relative z-50 inline-flex items-center gap-3 px-6 py-3 bg-brand border border-transparent text-white font-medium text-sm rounded-full shadow-[0_4px_14px_rgba(var(--brand-rgb),0.2)] hover:shadow-[0_6px_20px_rgba(var(--brand-rgb),0.25)] transition-all group cursor-pointer"
             >
@@ -117,7 +153,7 @@ export default function HeroSection() {
                 )}
               </span>
               {isPlaying ? HERO_CONTENT.ctaPrimaryActive : HERO_CONTENT.ctaPrimary}
-            </button> */}
+            </button>
 
             <Dialog>
               <DialogTrigger asChild>
