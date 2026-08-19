@@ -18,7 +18,7 @@ const capabilities = [
   {
     icon: Brain,
     title: 'HealthCare Workflow Intelligence',
-    description: 'Unlike generic call systems, Amplit AI understands HealthCare workflows',
+    description: 'Unlike generic call systems, Amplit AI understands Dental workflows',
     features: [
       'Knows HealthCare procedures & patient queries',
       'Handles common patient questions',
