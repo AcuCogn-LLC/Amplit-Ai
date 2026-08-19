@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const TRUST_CONTENT = {
-  headline: "Intelligent AI Solutions for Modern HealthCare Practices",
+  headline: "Intelligent AI Solutions for Modern Dental Practices",
   description:
-    "Amplit AI brings purpose-built intelligence to every layer of your HealthCare practices — from the front desk to the back office. Less overhead, better patient experiences, and more revenue captured automatically.",
+    "Amplit AI brings purpose-built intelligence to every layer of your Dental practices from the front desk to the back office. Less overhead, better patient experiences, and more revenue captured automatically.",
 };
 
 const PARTNER_LOGOS = [
