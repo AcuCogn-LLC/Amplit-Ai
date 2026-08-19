@@ -1,0 +1,1189 @@
+Call Transcripts Export
+Generated: 8/19/2026, 3:53:25 PM
+
+Total Calls: 20
+=================================================
+
+Call ID: 2f66a0df-76ab-4a0d-8375-4d617852f66c
+Patient Name: Lisa Park
+Date: 8/18/2026, 11:37:18 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[5:07:20 AM] Patient: hi
+[5:07:24 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[5:07:26 AM] Assistant: How can I help you today?
+[5:07:28 AM] Patient: i would like to book an appointment.
+[5:07:34 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[5:07:36 AM] Patient: i am a new patient.
+[5:07:41 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[5:07:46 AM] Patient: lisa park, l i s a.
+[5:07:49 AM] Patient: p a r k.
+[5:07:52 AM] Assistant: That's Lisa Park —  is that right?
+[5:07:54 AM] Patient: that's correct.
+[5:07:57 AM] Assistant: Thank you! And may I have your date of birth?
+[5:08:02 AM] Patient: eleven sixteen two thousand 7.
+[5:08:07 AM] Assistant: Thanks —  that's November 16 2007 is that correct?
+[5:08:09 AM] Patient: that's correct.
+[5:08:16 AM] Assistant: Is +14696702982 the best phone number to reach you?
+[5:08:20 AM] Patient: no. can you update my number?
+[5:08:22 AM] Patient: can you update my number?
+[5:08:26 AM] Assistant: I can update your number. What is your new phone number, please?
+[5:08:31 AM] Patient: 516957
+[5:08:34 AM] Patient: 8453.
+[5:08:40 AM] Assistant: Thanks —   that's 5169578453 is that right?
+[5:08:43 AM] Patient: that's correct.
+[5:08:51 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[5:08:55 AM] Patient: my email address is l park.
+[5:08:59 AM] Patient: 8117 at gmail dot com.
+[5:09:06 AM] Assistant: That's lpark.8117@gmail.com —  is that right?
+[5:09:08 AM] Patient: no.
+[5:09:12 AM] Assistant: I understand. Could you please spell it out for me again?
+[5:09:16 AM] Patient: l p a r k
+[5:09:21 AM] Patient: 8117 at gmail dot com
+[5:09:27 AM] Assistant: That's lpark8117@gmail.com —   is that right?
+[5:09:30 AM] Patient: that's correct.
+[5:09:40 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[5:09:42 AM] Assistant: dental concerns?
+[5:09:45 AM] Patient: i'm coming in for a routine cleaning.
+[5:09:49 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[5:09:51 AM] Patient: yes.
+[5:09:57 AM] Assistant: Got it. Could you please provide the name of your insurance carrier and your member ID?
+[5:10:01 AM] Patient: cigna healthcare.
+[5:10:05 AM] Assistant: Thanks! And what is your Cigna Healthcare member ID, please?
+[5:10:10 AM] Patient: 817354.
+[5:10:15 AM] Assistant: Thanks —   that's 8173554 is that right?
+[5:10:17 AM] Patient: that's correct.
+[5:10:25 AM] Assistant: Thank you for that information. Do you have a preferred day or time for your appointment?
+[5:10:29 AM] Patient: i'm looking for next week tuesday at 4 p m.
+[5:10:41 AM] Assistant: I have available slots on Tuesday August 25th. I see Dr. James Park has openings at 12:00 PM, 12:30 PM, and 1:00 PM.
+[5:10:45 AM] Assistant: I don't see a 4:00 PM slot available with any doctor on that day.
+[5:10:49 AM] Assistant: Would you like to choose from these available times, or would you prefer a different day?
+[5:10:53 AM] Patient: can i have that tuesday at 1 p
+[5:10:55 AM] Patient: m with dr park?
+[5:11:03 AM] Assistant: I have you scheduled for Tuesday August 25 at 1:00 PM with Dr. James Park for a routine cleaning.
+[5:11:05 AM] Assistant: Does that sound right?
+[5:11:07 AM] Patient: that's correct.
+[5:11:13 AM] Assistant: Perfect. You'll receive a confirmation with all the details by text and email.
+[5:11:15 AM] Assistant: Is there anything else I can help you with today?
+[5:11:17 AM] Patient: no thank you.
+[5:11:22 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+[5:11:23 AM] Patient: bye-bye.
+=================================================
+
+Call ID: 0b846712-1a0d-4bf2-93c2-e903cdcdc847
+Patient Name: Unknown Caller
+Date: 8/18/2026, 11:36:42 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[5:06:44 AM] Patient: hi
+[5:06:49 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[5:06:50 AM] Assistant: How can I help you today?
+[5:06:53 AM] Patient: i would like to book an appointment.
+[5:06:58 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[5:07:01 AM] Patient: existing.
+[5:07:06 AM] Assistant: Great! To look up your record, could you please provide your full name?
+=================================================
+
+Call ID: 7ab06394-50b7-4c8d-96aa-e1fbb628d93b
+Patient Name: Jayotika
+Date: 8/18/2026, 11:13:52 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[4:43:54 AM] Patient: hi
+[4:43:59 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[4:44:01 AM] Assistant: How can I help you today?
+[4:44:04 AM] Patient: i need to book an appointment
+[4:44:09 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[4:44:11 AM] Patient: i'm a new patient
+[4:44:16 AM] Assistant: Great! Let's get you set up. May I have your full name, please?
+[4:44:20 AM] Patient: sure thing, that's so funny. jay?
+[4:44:23 AM] Patient: y 0 t i k a
+[4:44:27 AM] Assistant: That's Jayotika —  is that right?
+[4:44:29 AM] Patient: correct.
+[4:44:33 AM] Assistant: Thank you! And may I have your date of birth?
+[4:44:36 AM] Patient: eleven sixteen two thousand 7
+[4:44:41 AM] Assistant: That's November 16 2007 is that correct?
+[4:44:43 AM] Patient: correct.
+[4:44:51 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[4:44:53 AM] Patient: yes.
+[4:45:01 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[4:45:06 AM] Patient: s j 0 j 0
+[4:45:09 AM] Patient: 0716 at gmail dot com
+[4:45:15 AM] Assistant: That's sjojo0716atgmail.com is that right?
+[4:45:17 AM] Patient: correct.
+[4:45:27 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[4:45:29 AM] Assistant: dental concerns?
+[4:45:31 AM] Patient: i'm looking for a cleaning.
+[4:45:35 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[4:45:38 AM] Patient: yes.
+[4:45:40 AM] Assistant: Thank you. Could you please provide the name of your insurance carrier and your member ID?
+[4:45:42 AM] Patient: no.
+[4:45:44 AM] Assistant: No problem at all, we'll note you as self-pay.
+[4:45:46 AM] Patient: blah.
+[4:45:53 AM] Assistant: Sorry, could you clarify what you meant by "blah"? Do you have a preferred day or time for your appointment?
+[4:45:58 AM] Patient: um, i would like to book it today.
+[4:46:12 AM] Assistant: I have Thursday August 27 at 08:30 with Dr. Priya Sharma, Friday August 28 at 08:30 with Dr. Sarah Mitchell, or Monday August 31 at 08:00
+[4:46:15 AM] Assistant: with Dr. Sarah Mitchell. Which works best for you?
+[4:46:18 AM] Patient: monday.
+[4:46:24 AM] Assistant: I have you scheduled for Monday August 31 at 08:00 with Dr. Sarah Mitchell for a cleaning.
+[4:46:26 AM] Assistant: Does that sound right?
+[4:46:29 AM] Patient: that's correct.
+[4:46:39 AM] Assistant: Thank you for choosing Smile Plus Dental. Your appointment is confirmed for Monday August 31 at 08:00 with Dr. Sarah Mitchell for a cleaning.
+[4:46:46 AM] Assistant: Confirmation details have been sent to sjojo0716atgmail.com and to your phone.
+[4:46:49 AM] Assistant: Is there anything else I can help you with today?
+=================================================
+
+Call ID: 46d7b85f-23fd-4551-b0e2-5d0ebae52b0c
+Patient Name: Lisa Park
+Date: 8/18/2026, 9:37:17 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[3:07:18 AM] Patient: hi
+[3:07:23 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[3:07:25 AM] Assistant: How can I help you today?
+[3:07:27 AM] Patient: hey, i would like to book an appointment.
+[3:07:33 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[3:07:35 AM] Patient: a new patient.
+[3:07:38 AM] Assistant: Great! May I have your full name, please?
+[3:07:40 AM] Patient: yes, lisa park.
+[3:07:43 AM] Assistant: That's Lisa Park —  is that right?
+[3:07:45 AM] Patient: yes.
+[3:07:49 AM] Assistant: Thank you! And may I have your date of birth?
+[3:07:53 AM] Patient: it's six sixteen nineteen ninety six.
+[3:07:58 AM] Assistant: That's June 16 1996 is that correct?
+[3:08:00 AM] Patient: yes.
+[3:08:08 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[3:08:10 AM] Patient: can you please update my number?
+[3:08:15 AM] Assistant: I can update it. What is your new phone number, please?
+[3:08:18 AM] Patient: 516957
+[3:08:19 AM] Patient: 8453
+[3:08:26 AM] Assistant: That's +15169578453 is that right?
+[3:08:29 AM] Patient: yes.
+[3:08:37 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[3:08:41 AM] Patient: it's letter l park 811
+[3:08:43 AM] Patient: 7 at gmail dot com
+[3:08:43 AM] Patient: [speech]
+[3:08:49 AM] Assistant: That's lpark8117@gmail.com —  is that right?
+[3:08:51 AM] Patient: yes.
+[3:09:01 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[3:09:03 AM] Assistant: dental concerns?
+[3:09:07 AM] Patient: i have been experiencing um uh
+[3:09:11 AM] Patient: pain in my lower tooth uh so i would like to see doctor
+[3:09:15 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[3:09:18 AM] Patient: uh no
+[3:09:22 AM] Assistant: No problem at all, we'll note you as self-pay.
+[3:09:25 AM] Assistant: Do you have a preferred day or time for your appointment?
+[3:09:29 AM] Patient: yes i would like to come tomorrow
+[3:09:43 AM] Assistant: I have you scheduled for tomorrow, Wednesday August 19. I have Wednesday August 19 at 9:00 am with Dr. James Park, or Wednesday August 19 at 9:00 am with Dr. Priya
+[3:09:48 AM] Assistant: Sharma, or Wednesday August 19 at 9:30 am with Dr. Priya Sharma.
+[3:09:50 AM] Assistant: Which works best for you?
+[3:09:53 AM] Patient: can you please book me with doctor james park?
+[3:09:54 AM] Patient: at 9 am.
+[3:10:03 AM] Assistant: I have you scheduled for Wednesday August 19 at 9:00 am with Dr. James Park for pain in lower tooth.
+[3:10:05 AM] Assistant: Does that sound right?
+[3:10:06 AM] Patient: yes.
+[3:10:11 AM] Assistant: Confirmation details will be sent automatically by text and email.
+[3:10:13 AM] Assistant: Is there anything else I can help you with today?
+[3:10:15 AM] Patient: no, thank you.
+[3:10:20 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: 16d3d054-df53-4ec7-bb02-e5707e939028
+Patient Name: Lisa Park
+Date: 8/18/2026, 9:24:50 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[2:54:52 AM] Patient: hi
+[2:54:58 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[2:54:59 AM] Assistant: How can I help you today?
+[2:55:02 AM] Patient: hi i would like to book an appointment
+[2:55:08 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[2:55:09 AM] Patient: i'm new patient
+[2:55:14 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[2:55:17 AM] Patient: it's lisa park
+[2:55:20 AM] Assistant: That's Lisa Park —  is that right?
+[2:55:23 AM] Patient: yes
+[2:55:26 AM] Assistant: Thank you! And may I have your date of birth?
+[2:55:29 AM] Patient: yes it's six sixteen
+[2:55:31 AM] Patient: nineteen ninety six
+[2:55:35 AM] Assistant: That's June 16 1996 is that correct?
+[2:55:37 AM] Patient: yes
+[2:55:44 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[2:55:47 AM] Patient: no can you update my number
+[2:55:51 AM] Assistant: I can update that for you. What is your new phone number, please?
+[2:55:55 AM] Patient: 5169578
+[2:55:56 AM] Patient: 453
+[2:56:03 AM] Assistant: That's +15169578453 is that correct?
+[2:56:05 AM] Patient: yes
+[2:56:14 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[2:56:17 AM] Patient: it's alice park
+[2:56:19 AM] Patient: 8117 at gmail dot com
+[2:56:25 AM] Assistant: That's alicepark8117@gmail.com is that right?
+[2:56:31 AM] Patient: it's l park 8117
+[2:56:33 AM] Patient: at gmail dot com
+[2:56:38 AM] Assistant: That's lpark8117@gmail.com is that right?
+[2:56:40 AM] Patient: yes
+[2:56:51 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[2:56:53 AM] Assistant: dental concerns?
+[2:56:57 AM] Patient: yes i have pain in my uh
+[2:57:01 AM] Patient: lower right tooth so i would like to visit doctor
+[2:57:07 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[2:57:09 AM] Patient: yes i'll be using sigma
+[2:57:14 AM] Assistant: Got it. Could you provide your Sigma insurance member ID, please?
+[2:57:17 AM] Patient: sure
+[2:57:21 AM] Patient: my sigma insurance number id is g
+[2:57:22 AM] Patient: x y
+[2:57:26 AM] Assistant: That's Sigma, member ID GXY is that right?
+[2:57:30 AM] Patient: let me give it to you
+[2:57:32 AM] Patient: one second
+[2:57:37 AM] Assistant: Sure, take your time. Please provide the Sigma member ID when you're ready.
+[2:57:45 AM] Patient: it's uh c i
+[2:57:49 AM] Patient: 12257 z
+[2:57:50 AM] Patient: x
+[2:57:56 AM] Assistant: That's C I 1225 7ZX is that correct?
+[2:58:02 AM] Patient: you
+[2:58:03 AM] Patient: can you
+[2:58:05 AM] Patient: repeat it
+[2:58:10 AM] Assistant: That's C I 1225 7ZX —  is that right?
+=================================================
+
+Call ID: 3633adc1-3174-49ad-b284-61a70c56b0bd
+Patient Name: Unknown Caller
+Date: 8/18/2026, 9:15:22 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[2:45:24 AM] Patient: hi
+[2:45:29 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[2:45:31 AM] Assistant: How can I help you today?
+[2:45:33 AM] Patient: hi, i would like to book an appointment.
+[2:45:39 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[2:45:41 AM] Patient: yes, i'm a new patient.
+[2:45:46 AM] Assistant: Great! To get you registered and scheduled, I'll need a few details.
+[2:45:49 AM] Assistant: May I have your full name, please?
+[2:45:53 AM] Patient: yes, my full name is nisa park.
+[2:45:56 AM] Assistant: That's Nisa Park —  is that right?
+[2:45:58 AM] Patient: lisa park.
+[2:46:02 AM] Assistant: Thanks —  that's Lisa Park —  is that right?
+[2:46:04 AM] Patient: yes.
+[2:46:08 AM] Assistant: Thank you! And may I have your date of birth?
+[2:46:13 AM] Patient: it's six sixteen nineteen ninety six.
+[2:46:18 AM] Assistant: That's June 16 1996  is that correct?
+[2:46:19 AM] Patient: yes.
+[2:46:27 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[2:46:30 AM] Patient: can you update my number?
+[2:46:35 AM] Assistant: I can update it. What number would you like to use instead?
+[2:46:39 AM] Patient: 51695784
+[2:46:40 AM] Patient: 53
+[2:46:46 AM] Assistant: That's +15169578453  is that right?
+[2:46:49 AM] Patient: yes.
+[2:46:57 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[2:47:02 AM] Patient: lisa 0616
+[2:47:04 AM] Assistant: That's lisa 061  is that right?
+[2:47:06 AM] Patient: dot
+[2:47:10 AM] Assistant: That's lisa 061.  is that right?
+[2:47:12 AM] Patient: no.
+[2:47:19 AM] Assistant: I understand. Could you please spell out your full email address again for me, letter by letter?
+[2:47:23 AM] Patient: yes, it's lisa 061
+[2:47:26 AM] Patient: 6 dot m at gmail dot com.
+[2:47:31 AM] Assistant: That's lisa 061@gmail.com  is that right?
+[2:47:35 AM] Patient: no, it's lisa 0
+[2:47:39 AM] Patient: 616 dot m at gmail dot com.
+[2:47:45 AM] Assistant: That's lisa 0616@gmail.com  is that right?
+[2:47:50 AM] Patient: no, it's lisa 0
+[2:47:52 AM] Patient: 616
+[2:47:56 AM] Patient: dot m at gmail dot com.
+[2:48:01 AM] Assistant: That's lisa 0616@gmail.com  is that right?
+[2:48:05 AM] Patient: i know.
+[2:48:09 AM] Assistant: I want to make sure I get this exactly right.
+[2:48:16 AM] Assistant: Could you please spell it out again, letter by letter and number by number, with "dot" for periods and "at" for the @ symbol?
+[2:48:20 AM] Patient: it's lisa l i s a 6
+[2:48:24 AM] Patient: 16 dot m at gmail dot com
+[2:48:30 AM] Assistant: That's lisa 0616@gmail.com  is that right?
+[2:48:32 AM] Patient: no.
+[2:48:43 AM] Assistant: I appreciate your patience. To ensure I have the correct email, could you please spell it out one more time, letter by letter and number by number, using "dot" for periods and
+[2:48:44 AM] Assistant: "at" for the @ symbol?
+[2:48:50 AM] Patient: l i s a 0
+[2:48:54 AM] Patient: 616 dot
+[2:48:57 AM] Patient: m at gmail dot com
+[2:49:03 AM] Assistant: That's lisa 0616@gmail.com  is that right?
+[2:49:06 AM] Patient: no.
+[2:49:10 AM] Assistant: I want to make sure I have it exactly correct.
+=================================================
+
+Call ID: 8b7bc317-a784-404f-a84c-ce1713b3bad4
+Patient Name: Siddharth Kathpaliya
+Date: 8/18/2026, 8:49:49 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[2:19:51 AM] Patient: hi
+[2:19:56 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[2:19:57 AM] Assistant: How can I help you today?
+[2:20:00 AM] Patient: hi, i would like to book an appointment.
+[2:20:06 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[2:20:08 AM] Patient: i'm new patient.
+[2:20:13 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[2:20:17 AM] Patient: yeah, sure. my name is siddharth
+[2:20:18 AM] Patient: kathpaliya.
+[2:20:22 AM] Assistant: That's Siddharth Kathpaliya —  is that right?
+[2:20:25 AM] Patient: yes.
+[2:20:29 AM] Assistant: Thank you! And may I have your date of birth?
+[2:20:33 AM] Patient: yes, it's 9, 9.
+[2:20:35 AM] Patient: nineteen ninety nine.
+[2:20:40 AM] Assistant: That's September 9 1999 is that correct?
+[2:20:42 AM] Patient: yes.
+[2:20:49 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[2:20:52 AM] Patient: yes.
+[2:21:01 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[2:21:05 AM] Patient: anjali s u s a
+[2:21:08 AM] Patient: 16 at gmail dot com
+[2:21:13 AM] Assistant: That's anjali susa16@gmail.com —  is that right?
+[2:21:16 AM] Patient: yes.
+[2:21:27 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[2:21:29 AM] Assistant: dental concerns?
+[2:21:31 AM] Patient: yes, i'm coming for routine checkup.
+[2:21:36 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[2:21:40 AM] Patient: yes, i use delta.
+[2:21:46 AM] Assistant: Got it. Could you please provide your Delta insurance company name and member ID?
+[2:21:51 AM] Patient: yes, it's uh um
+[2:21:55 AM] Patient: name is under my name and uh
+[2:21:59 AM] Patient: uh member id is g z y 007
+[2:22:02 AM] Patient: 0589
+[2:22:10 AM] Assistant: That's Delta, member IDGZY00705989  is that right?
+[2:22:12 AM] Patient: yes.
+[2:22:20 AM] Assistant: Thank you for all those details. Do you have a preferred day or time for your appointment?
+[2:22:23 AM] Patient: yes, i will not come wednesday.
+[2:22:31 AM] Assistant: Got it. Are you looking for an appointment on a day other than Wednesday, or do you have a specific day and time in mind?
+[2:22:36 AM] Patient: i wanna book on wednesday.
+[2:22:42 AM] Assistant: I understand you'd like to book for Wednesday. Let me check Wednesday's availability for you.
+[2:22:44 AM] Assistant: One moment please.
+[2:23:31 AM] Patient: are you there?
+[2:23:39 AM] Assistant: I checked Wednesday August 19th, but it appears all slots for that day are currently booked.
+[2:23:50 AM] Assistant: Here are the next available options:
+
+Tuesday, August 25 at 8:00 AM with Dr. Priya Sharma
+Thursday August 27 at 8:30 AM with Dr. Priya Sharma
+[2:23:54 AM] Assistant: Friday August 28 at 8:00 AM with Dr. Sarah Mitchell
+[2:23:57 AM] Assistant: Which of these works best for you?
+[2:23:58 AM] Patient: friday.
+[2:24:05 AM] Assistant: I have you scheduled for Friday August 28 at 8:00 AM with Dr. Sarah Mitchell for a routine checkup.
+[2:24:07 AM] Assistant: Does that sound right?
+[2:24:08 AM] Patient: i'm right, yes.
+[2:24:18 AM] Assistant: Perfect! Your appointment is confirmed for Friday August 28 at 8:00 AM with Dr. Sarah Mitchell for a routine checkup.
+[2:24:23 AM] Assistant: You'll receive a confirmation with all the details by text and email shortly.
+[2:24:25 AM] Assistant: Is there anything else I can help you with today?
+[2:24:28 AM] Patient: no, thank you.
+[2:24:33 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: 50ccd9d8-2a86-46e7-8959-cb9dbe22c2c2
+Patient Name: Unknown Caller
+Date: 8/18/2026, 8:43:32 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[2:13:33 AM] Patient: hi
+[2:13:38 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[2:13:39 AM] Assistant: How can I help you today?
+[2:13:40 AM] Patient: this call will be recorded.
+[2:13:44 AM] Assistant: Thank you for letting me know. How can I assist you today?
+[2:13:47 AM] Patient: can you repeat?
+[2:13:52 AM] Assistant: Of course. Thank you for calling Smile Plus Dental.
+[2:13:54 AM] Assistant: My name is Dentsi. How can I help you today?
+[2:13:57 AM] Patient: hi, i would like to book an appointment.
+[2:14:03 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[2:14:05 AM] Patient: i'm new patient.
+[2:14:10 AM] Assistant: Great! Let's get you set up. May I have your full name, please?
+[2:14:13 AM] Patient: yes, it's jessica.
+[2:14:19 AM] Assistant: Thank you, Jessica. Could you please confirm if that's your full name —  just "Jessica"?
+[2:14:21 AM] Assistant: Or is there a last name as well?
+[2:14:22 AM] Assistant: If you could share your full name, I'll spell it back letter-by-letter to confirm it's correct.
+[2:14:24 AM] Patient: it's
+[2:14:29 AM] Assistant: I’m sorry, I didn’t catch that. Could you please say your full name again?
+[2:14:31 AM] Assistant: I want to make sure I have it exactly right.
+[2:14:36 AM] Patient: it's jessica comstock.
+[2:14:47 AM] Assistant: Thank you! That's Jessica Comstock. Let me spell that back: J-e-s-s-i-c-a C-o-m-s-t-o-c-k —  is that right?
+[2:14:49 AM] Patient: yes.
+[2:14:53 AM] Assistant: Perfect! Now, may I have your date of birth?
+[2:14:57 AM] Patient: yes it's six sixteen nineteen ninety six
+[2:15:07 AM] Assistant: Got it —   you said June 16 1996. Let me read that back: June 16 1996  is that correct?
+[2:15:09 AM] Patient: yes
+[2:15:18 AM] Assistant: Thanks! Is +15168709245 the best phone number to reach you?
+[2:15:34 AM] Patient: hello?
+[2:15:43 AM] Assistant: Sorry, I missed that —   could you confirm if +15168709245 is the best phone number to reach you?
+[2:16:07 AM] Patient: hello?
+[2:16:16 AM] Assistant: I’m here! Just to confirm, is +15168709245 the best phone number to reach you?
+[2:16:18 AM] Patient: yes.
+[2:16:26 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[2:16:32 AM] Patient: h r dot angeli at yahoo dot com
+[2:16:39 AM] Assistant: Thanks! Let me write that down as h.r.angeli@yahoo.com —   is that right?
+[2:16:43 AM] Patient: h r dot angeli at yahoo dot com
+[2:16:49 AM] Assistant: Got it —   you said h.r.angeli@yahoo.com.
+[2:16:50 AM] Assistant: Let me spell that back: h dot r dot angeli at yahoo dot com —   is that correct?
+[2:16:52 AM] Patient: i said, i said.
+[2:16:55 AM] Assistant: Sorry, I need the exact email. Could you please repeat your email address for me, so I can write it correctly?
+[2:16:56 AM] Patient: no.
+[2:17:04 AM] Assistant: I understand —    to move forward, I need your email address spelled out clearly so I can save it correctly.
+[2:17:09 AM] Assistant: If you'd prefer not to share one, that’s fine, but I’ll need to confirm that with you.
+[2:17:10 AM] Assistant: What would you like to do?
+[2:17:14 AM] Patient: it's
+[2:17:18 AM] Patient: h r dot anjali
+[2:17:20 AM] Patient: at yahoo dot com
+[2:17:26 AM] Assistant: Thanks —    so that’s h.r.anjali@yahoo.com —    is that right?
+[2:17:30 AM] Patient: no.
+[2:17:40 AM] Assistant: I’m sorry, I need the exact spelling. Could you please spell it out letter by letter and word by word, like h dot r dot …”,  so I get it exactly right?
+[2:17:45 AM] Patient: h r dot anjali
+[2:17:48 AM] Patient: at yahoo dot com
+[2:17:54 AM] Assistant: Got it —    you’re confirming h.r.anjali@yahoo.com.
+=================================================
+
+Call ID: 0a89f5b2-326a-4de7-938d-915b406b1f6f
+Patient Name: Krishnamurti Johnson
+Date: 8/18/2026, 8:25:13 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[1:55:17 AM] Patient: hi
+[1:55:22 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[1:55:24 AM] Assistant: How can I help you today?
+[1:55:26 AM] Patient: hi, i would like to book an appointment.
+[1:55:31 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[1:55:33 AM] Patient: i'm new patient.
+[1:55:38 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[1:55:42 AM] Patient: yes, it's krishnamurti.
+[1:55:44 AM] Patient: johnson.
+[1:55:48 AM] Assistant: That's Krishnamurti Johnson —  is that right?
+[1:55:49 AM] Patient: yes.
+[1:55:53 AM] Assistant: Thank you! And may I have your date of birth?
+[1:55:57 AM] Patient: it's uh
+[1:55:59 AM] Patient: uh six sixteen
+[1:56:01 AM] Patient: nineteen eighty six.
+[1:56:06 AM] Assistant: That's June 16 1986 is that correct?
+[1:56:08 AM] Patient: yes.
+[1:56:15 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[1:56:18 AM] Patient: yes.
+[1:56:26 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[1:56:30 AM] Patient: it's anjali a n j
+[1:56:34 AM] Patient: a l i s u s a 16
+[1:56:36 AM] Patient: at gmail dot com
+[1:56:43 AM] Assistant: That's anjalianjalisusa16@gmail.com —  is that right?
+[1:56:45 AM] Patient: no
+[1:56:46 AM] Assistant: I understand. Could you please spell out your email address again for me?
+[1:56:48 AM] Patient: it's
+[1:56:49 AM] Assistant: Sorry, I didn't catch that. Could you please spell out your email address again for me?
+[1:56:51 AM] Patient: it's anjali
+[1:56:57 AM] Assistant: Thank you. Could you please continue spelling out your full email address for me?
+[1:57:00 AM] Patient: it's a n j a l i
+[1:57:04 AM] Patient: s u s a 1
+[1:57:06 AM] Patient: 6 at gmail dot com
+[1:57:12 AM] Assistant: That's anjalisusa16@gmail.com —  is that right?
+[1:57:15 AM] Patient: yes
+[1:57:27 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[1:57:28 AM] Assistant: dental concerns?
+[1:57:32 AM] Patient: yes i have uh pain in my
+[1:57:34 AM] Patient: uh upper tooth
+[1:57:35 AM] Patient: upper right side tooth
+[1:57:40 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[1:57:44 AM] Patient: uh no
+[1:57:47 AM] Assistant: No problem at all, we'll note you as self-pay.
+[1:57:51 AM] Assistant: Do you have a preferred day or time for your appointment?
+[1:57:53 AM] Patient: yes i would like to come on thursday
+[1:58:05 AM] Assistant: I have Thursday August 27 at 8:30 am with Dr. Sarah Mitchell, or the same time with Dr. Priya Sharma.
+[1:58:07 AM] Assistant: Which works best for you?
+[1:58:09 AM] Patient: with doctor sarah mitchell
+[1:58:17 AM] Assistant: I have you scheduled for Thursday August 27 at 8:30 am with Dr. Sarah Mitchell for your upper tooth pain.
+[1:58:18 AM] Assistant: Does that sound right?
+[1:58:21 AM] Patient: yes
+[1:58:31 AM] Assistant: Perfect.  I've booked you for Thursday August 27 at 8:30 am with Dr. Sarah Mitchell for your upper tooth pain.
+[1:58:36 AM] Assistant: You'll receive a confirmation by text and email with all the details and new patient forms.
+[1:58:39 AM] Assistant: Is there anything else I can help you with today?
+[1:58:41 AM] Patient: no thank you
+[1:58:46 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: b333ceb8-f6a6-45e3-b51f-440c07084c16
+Patient Name: Kiri Sharma
+Date: 8/18/2026, 7:11:11 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[12:41:16 AM] Patient: hi
+[12:41:25 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[12:41:27 AM] Patient: hi, i would like to book an appointment.
+[12:41:34 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[12:41:35 AM] Patient: i'm a new patient.
+[12:41:43 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[12:41:46 AM] Patient: my full name is
+[12:41:48 AM] Patient: krill sharma.
+[12:41:57 AM] Assistant: That's K-R-I-L-L S-H-A-R-M-A —   is that right?
+[12:41:59 AM] Patient: no, it's k i r i double l
+[12:42:01 AM] Patient: s h a r m a.
+[12:42:10 AM] Assistant: Thanks —  that's K-I-R-I double L S-H-A-R-M-A —   is that right?
+[12:42:11 AM] Patient: yes.
+[12:42:17 AM] Assistant: Thank you! And may I have your date of birth?
+[12:42:18 AM] Patient: can you spell it again?
+[12:42:25 AM] Assistant: I can —   I asked for your date of birth. Could you please share it with me?
+[12:42:27 AM] Patient: 14 july nineteen ninety.
+[12:42:32 AM] Assistant: That's July 14 1990 is that correct?
+[12:42:33 AM] Patient: yes.
+[12:42:43 AM] Assistant: Is +916264232264 the best phone number to reach you?
+[12:42:44 AM] Patient: yes.
+[12:42:56 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[12:42:59 AM] Patient: my email address is code
+[12:43:02 AM] Patient: by current at the rate gmail dot com.
+[12:43:12 AM] Assistant: That's C-O-D-E-B-Y-C-U-R-R-E-N-T @ G-M-A-I-L .
+[12:43:16 AM] Patient: no, it's c 0 d e
+[12:43:20 AM] Patient: b y k a r a n
+[12:43:23 AM] Patient: 18 at the rate gmail dot com.
+[12:43:32 AM] Assistant: Thanks —   that's C-O-D-E-B-Y-K-A-R-A- N-1-8 @ G-M-A-I-L .
+[12:43:33 AM] Patient: yes.
+[12:43:57 AM] Assistant: I apologize for the error. Let's correct that. The confirmed name is K-I-R-I double L S-H-A-R-M-A.
+[12:43:59 AM] Patient: july fourteenth nineteen ninety.
+[12:44:05 AM] Assistant: That's July 14 1990 is that correct?
+[12:44:06 AM] Patient: yes.
+[12:44:24 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[12:44:26 AM] Patient: i was consulting for toothache.
+[12:44:32 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[12:44:33 AM] Patient: no.
+[12:44:43 AM] Assistant: No problem at all, we'll note you as self-pay.
+[12:44:43 AM] Assistant: Thank you for all those details. Do you have a preferred day or time for your appointment?
+[12:44:45 AM] Patient: anything works on friday.
+[12:45:00 AM] Assistant: I have Tuesday August 25th at eight in the morning with Dr. Priya Sharma, or Thursday August 27th at eight in the morning with Dr. Sarah Mitchell.
+[12:45:01 AM] Patient: doctor sarah mitchell.
+[12:45:11 AM] Assistant: I have you scheduled for Thursday August 27th at eight in the morning with Dr. Sarah Mitchell for toothache.
+[12:45:12 AM] Patient: yes.
+[12:45:31 AM] Assistant: Perfect —   your appointment is confirmed for Thursday August 27th at eight in the morning with Dr. Sarah Mitchell for toothache.
+[12:45:42 AM] Patient: no, thank you.
+[12:45:51 AM] Patient: no, thank you.
+=================================================
+
+Call ID: 492aaa3c-7e37-44b5-b9bd-33445e4d8f21
+Patient Name: Sohail Comstock
+Date: 8/18/2026, 6:43:12 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[12:13:16 AM] Patient: hi
+[12:13:21 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[12:13:23 AM] Assistant: How can I help you today?
+[12:13:25 AM] Patient: hi i would like to book an appointment
+[12:13:31 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[12:13:32 AM] Patient: i'm new patient
+[12:13:37 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[12:13:40 AM] Patient: yes my name is sohail
+[12:13:42 AM] Assistant: That's Sohail —  is that right? Please spell it out for me letter by letter with hyphens so I get it exactly correct.
+[12:13:43 AM] Patient: so many stars
+[12:13:44 AM] Assistant: I’m sorry, I didn’t catch that. Could you please spell your full name out clearly using letters and hyphens?
+[12:13:45 AM] Patient: yes
+[12:13:49 AM] Assistant: I need the spelling of your full name to continue.
+[12:13:55 AM] Assistant: Could you please spell it out letter by letter with hyphens, like S-O-H-A-I-L?
+[12:13:58 AM] Patient: yes
+[12:14:09 AM] Assistant: I still need the actual spelling of your name. Could you please spell your full name out clearly using letters and hyphens, for example: S-O-H-A-I-L?
+[12:14:13 AM] Patient: yes so my name is s 0 h
+[12:14:17 AM] Patient: a i l sohail
+[12:14:21 AM] Patient: comstock c 0 m s t 0 c k
+[12:14:23 AM] Patient: sohail comstock
+[12:14:31 AM] Assistant: Thank you —  that's S-O-H-A-I-L C-O-M-S-T-O-C-K —   is that right?
+[12:14:32 AM] Patient: yes
+[12:14:38 AM] Assistant: Thank you for confirming your name. And what is your email address?
+[12:14:38 AM] Assistant: We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[12:14:39 AM] Patient: my email
+[12:14:43 AM] Assistant: Could you please tell me your full email address?
+[12:14:47 AM] Patient: is anjali
+[12:14:52 AM] Patient: s u s a 16 at
+[12:14:53 AM] Patient: gmail dot com
+[12:15:00 AM] Assistant: That's A-N-J-A-L-I S-U-S-A 1-6 at gmail dot com —  is that right?
+[12:15:05 AM] Patient: it's a n j a l i
+[12:15:09 AM] Patient: s u s a 16
+[12:15:10 AM] Patient: at gmail dot com
+[12:15:22 AM] Assistant: I need to correct the name in the record. Let me confirm your full name again: it's S-O-H-A-I-L C-O-M-S-T-O-C-K,
+[12:15:23 AM] Assistant: correct?
+[12:15:25 AM] Patient: yes
+[12:15:36 AM] Assistant: Thank you —   your record is created. Could you tell me the reason for your visit today —  are you coming in for a routine cleaning and checkup, or are you experiencing any
+[12:15:39 AM] Assistant: pain or specific dental concerns?
+[12:15:41 AM] Patient: yes i wanna come for cleaning
+[12:15:48 AM] Assistant: Got that —   a routine cleaning and checkup. Will you be using dental insurance for this visit?
+[12:15:50 AM] Patient: yes cigna
+[12:15:56 AM] Assistant: Thanks. Could you please provide your Cigna insurance company name and member ID?
+[12:16:01 AM] Patient: uh yes it is g
+[12:16:05 AM] Patient: z 578590 r
+[12:16:05 AM] Patient: c
+[12:16:06 AM] Patient: 12
+[12:16:13 AM] Assistant: That's G-Z-57859-O- R- C-1-2 —   is that right?
+[12:16:15 AM] Patient: yes
+[12:16:24 AM] Assistant: Thank you —    your insurance is on file. Do you have a preferred day or time for your cleaning appointment?
+[12:16:26 AM] Patient: i wanna come tomorrow
+[12:16:38 AM] Assistant: The earliest available cleaning slot is Tuesday August 25th at eight in the morning with Dr. Priya Sharma, or Thursday August 27th at eight in the morning with Dr. Sarah
+[12:16:41 AM] Assistant: Mitchell. Which works best for you?
+[12:16:45 AM] Patient: okay do it with doctor p s sharma
+[12:16:53 AM] Assistant: I have you scheduled for Tuesday August 25th at eight in the morning with Dr. Priya Sharma for a routine cleaning and checkup.
+[12:16:55 AM] Assistant: Does that sound right?
+[12:16:57 AM] Patient: yes
+[12:17:07 AM] Assistant: The eight a.m. slot on Tuesday August 25th is no longer available —    Dr. Sharma has an appointment at eight thirty that morning.
+[12:17:16 AM] Assistant: The next available cleaning slot with Dr. Priya Sharma is Wednesday August 19th at nine a.m. or nine thirty a.m. Would either of those work for you?
+[12:17:19 AM] Patient: yes nine thirty am
+[12:17:25 AM] Assistant: I need to recheck availability to get the exact confirmed slot.
+[12:17:27 AM] Assistant: One moment please.
+[12:17:34 AM] Assistant: It looks like the nine thirty a.m. slot on Wednesday August 19th is no longer showing as available.
+[12:17:45 AM] Assistant: The next earliest cleaning slots with Dr. Priya Sharma are Tuesday August 25th at eight a.m., or Thursday August 27th at eight thirty a.m. Which would you prefer?
+[12:17:48 AM] Patient: okay book either 1
+[12:17:51 AM] Patient: anyone
+[12:17:56 AM] Assistant: I can book you for Tuesday August 25th at eight a.m. with Dr. Priya Sharma.
+[12:18:04 AM] Assistant: Please confirm: that's a routine cleaning and checkup on Tuesday August 25th at eight a.m. with Dr. Priya Sharma —   is that correct?
+[12:18:06 AM] Patient: yes
+[12:18:15 AM] Assistant: The eight a.m. slot on Tuesday August 25th is still showing as having a conflict at eight thirty that morning.
+=================================================
+
+Call ID: 36697cb1-18ef-4ef0-8caf-b4446ba7aa9b
+Patient Name: rajesh kumar
+Date: 8/18/2026, 6:35:31 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[12:05:34 AM] Patient: hi
+[12:05:42 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[12:05:50 AM] Assistant: How can I help you today?
+[12:05:52 AM] Patient: hello
+[12:05:59 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[12:06:02 AM] Assistant: How can I help you today?
+[12:06:05 AM] Patient: i would like to cancel my appointment.
+[12:06:17 AM] Assistant: Of course —  I'd be happy to help with that. To locate your appointment and process the cancellation, I need to verify your identity first.
+[12:06:18 AM] Patient: rajesh kumar.
+[12:06:28 AM] Assistant: Thank you, Rajesh. To locate your record, I also need your date of birth.
+[12:06:28 AM] Assistant: Could you please share your date of birth with me?
+[12:06:30 AM] Patient: august twelfth nineteen ninety.
+[12:06:48 AM] Assistant: Great, I found your record, Rajesh. I see you have an upcoming cleaning appointment scheduled for   Thursday August 27th at 8:30 AM with Dr. Priya Sharma**.
+[12:06:49 AM] Patient: yes.
+[12:06:58 AM] Assistant: I can cancel that Thursday August 27th cleaning appointment for you.
+[12:06:59 AM] Patient: yes.
+[12:07:12 AM] Assistant: Your cleaning appointment for Thursday August 27th at 8:30 AM with Dr. Priya Sharma has been successfully cancelled.
+[12:07:15 AM] Patient: thanks. can you give me more detail about my profile?
+[12:07:56 AM] Assistant: You're welcome! I can share a summary of your current profile details.
+[12:07:57 AM] Patient: no thank you.
+[12:08:06 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+[12:08:06 AM] Patient: you too.
+=================================================
+
+Call ID: 992624cc-2581-4071-a0e5-55b9a19dedc2
+Patient Name: Ravi Shivaram
+Date: 8/18/2026, 5:55:05 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[11:25:07 PM] Patient: hi
+[11:25:11 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[11:25:13 PM] Assistant: How can I help you today?
+[11:25:15 PM] Patient: hi i would like to book an appointment
+[11:25:21 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[11:25:23 PM] Patient: i'm new patient
+[11:25:28 PM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[11:25:32 PM] Patient: uh my name is robbie
+[11:25:38 PM] Assistant: Thank you! That's R-O-B-B-I-E —   is that right?
+[11:25:40 PM] Patient: no it's r a v i
+[11:25:45 PM] Assistant: Thanks —  that's R-A-V-I,  is that right?
+[11:25:47 PM] Patient: yes ravi shivaram
+[11:25:55 PM] Assistant: Perfect! That's R-A-V-I S-H-I-V-A-R-A-M —   is that right?
+[11:25:57 PM] Patient: yes that's correct
+[11:26:01 PM] Assistant: Thank you! And may I have your date of birth?
+[11:26:05 PM] Patient: yes it's 7 august 19
+[11:26:06 PM] Patient: 85
+[11:26:10 PM] Assistant: Got that —   August 7 1985  is that correct?
+[11:26:12 PM] Patient: yes
+[11:26:19 PM] Assistant: Is +15168709245 the best phone number to reach you?
+[11:26:21 PM] Patient: yes
+[11:26:29 PM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[11:26:33 PM] Patient: it's anjali s u s a 1
+[11:26:35 PM] Patient: 6 at gmail dot com
+[11:26:43 PM] Assistant: Thanks —   that's A-N-J-A-L-I S-U-S-A 1 6 @ G M A I L .
+[11:26:45 PM] Assistant: C O M —   is that right?
+[11:26:47 PM] Patient: well
+[11:26:54 PM] Assistant: Sorry, could you clarify the email address for me?  I want to make sure I have it exactly right.
+[11:26:58 PM] Patient: so it's a n j a l i
+[11:27:02 PM] Patient: s u s a 1
+[11:27:04 PM] Patient: 6 at gmail dot com
+[11:27:11 PM] Assistant: Thanks —    that's A-N-J-A-L-I S-U-S-A 1 6 @ G M A I L .
+[11:27:14 PM] Assistant: C O M —    is that right?
+[11:27:16 PM] Patient: yes
+[11:27:27 PM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[11:27:28 PM] Assistant: dental concerns?
+[11:27:32 PM] Patient: i would like to come uh to see 1 of
+[11:27:36 PM] Patient: your clinic's doctors i'm experiencing some
+[11:27:40 PM] Patient: pain since 2 days so just wanted to um
+[11:27:42 PM] Patient: you know see myself like
+[11:27:43 PM] Patient: what's wrong with
+[11:27:44 PM] Patient: uh
+[11:27:50 PM] Assistant: Understood —    I'm sorry you're dealing with pain. Will you be using dental insurance for this visit?
+[11:27:54 PM] Patient: uh no
+[11:27:58 PM] Assistant: No problem at all, we'll note you as self-pay.
+[11:28:02 PM] Assistant: Do you have a preferred day or time for your appointment?
+[11:28:05 PM] Patient: yes i would like to come on 20
+[11:28:06 PM] Patient: august
+[11:28:15 PM] Assistant: I have Thursday August 20th at eight in the morning with Dr. James Park, Dr. Priya Sharma, or Dr. Sarah Mitchell.
+[11:28:18 PM] Assistant: Which works best for you?
+[11:28:21 PM] Patient: uh i would like to book with doctor priya
+[11:28:22 PM] Patient: sharma
+[11:28:29 PM] Assistant: I have you scheduled for Thursday August 20 at eight in the morning with Dr. Priya Sharma for your urgent pain.
+[11:28:31 PM] Assistant: Does that sound right?
+[11:28:33 PM] Patient: yes
+[11:28:42 PM] Assistant: Perfect —    your appointment is confirmed for Thursday August 20 at eight in the morning with Dr. Priya Sharma for urgent pain.
+[11:28:48 PM] Assistant: Confirmation details will be sent to anjalisusa16@gmail.com and to your phone.
+[11:28:51 PM] Assistant: Is there anything else I can help you with today?
+[11:28:54 PM] Patient: uh no thank you
+[11:28:58 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+[11:29:02 PM] Patient: thank you
+=================================================
+
+Call ID: 414a3d3a-42d7-41ed-bb99-7c00c390cc80
+Patient Name: Unknown Caller
+Date: 8/18/2026, 5:54:36 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[11:24:38 PM] Patient: hi
+[11:24:43 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[11:24:45 PM] Assistant: How can I help you today?
+[11:24:47 PM] Patient: hi i would like to book an appointment
+[11:24:49 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[11:24:49 PM] Patient: of course
+[11:24:54 PM] Assistant: Thanks! To get you set up, I just need a few quick details.
+[11:24:56 PM] Assistant: May I have your full name, please?
+=================================================
+
+Call ID: fdafcfc6-1bf7-422a-9aa5-fe198b97ec10
+Patient Name: rajesh kumar
+Date: 8/18/2026, 3:57:04 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[9:27:07 PM] Patient: hi
+[9:27:12 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[9:27:13 PM] Assistant: How can I help you today?
+[9:27:18 PM] Patient: i would like to book an appointment.
+[9:27:24 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[9:27:27 PM] Patient: i'm a new patient.
+[9:27:32 PM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[9:27:38 PM] Patient: my full name is
+[9:27:42 PM] Assistant: I didn't catch that —  could you please repeat your full name for me?
+[9:27:49 PM] Patient: my full name is rajesh
+[9:27:49 PM] Patient: kumar.
+[9:27:56 PM] Assistant: Thank you! That's R-A-J-E-S-H K-U-M-A-R —   is that right?
+[9:28:02 PM] Patient: yes.
+[9:28:06 PM] Assistant: Perfect! And may I have your date of birth?
+[9:28:12 PM] Patient: my date of birth is
+[9:28:15 PM] Patient: 12 august nineteen ninety.
+[9:28:21 PM] Assistant: Thanks! So that's August 12 1990 is that correct?
+[9:28:24 PM] Patient: yes.
+[9:28:32 PM] Assistant: Great! Is +916264232264 the best phone number to reach you?
+[9:28:35 PM] Patient: no.
+[9:28:39 PM] Assistant: No problem —   what is the best phone number to reach you?
+[9:28:46 PM] Patient: 1 double six 942
+[9:28:49 PM] Patient: 3912
+[9:28:56 PM] Assistant: Thanks! So that's +16694239912  is that right?
+[9:28:59 PM] Patient: yes.
+[9:29:07 PM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[9:29:11 PM] Patient: my email address is
+[9:29:15 PM] Patient: riteshsharma at the rate gmail dot com
+[9:29:20 PM] Assistant: Thanks! So that's riteshsharma@gmail.com  is that right?
+[9:29:22 PM] Patient: can you spell it
+[9:29:31 PM] Assistant: Of course! That's r-i-t-e-s-h-s-h-a-r-m-a @ g-m-a-i-l .  c-o-m —  is that right?
+[9:29:36 PM] Patient: no it's r a j e s h
+[9:29:42 PM] Patient: s h a r m a at the rate
+[9:29:43 PM] Patient: gmail dot com
+[9:29:48 PM] Assistant: Got it! So that's rajeshsharma@gmail.com  is that right?
+[9:29:50 PM] Patient: yes
+[9:30:01 PM] Assistant: Thank you! Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any
+[9:30:03 PM] Assistant: pain or specific dental concerns?
+[9:30:10 PM] Patient: i'm coming in for routine cleanup.
+[9:30:14 PM] Assistant: Understood. Will you be using dental insurance for this visit?
+[9:30:18 PM] Patient: yes.
+[9:30:24 PM] Assistant: Great! Could you please provide the name of your insurance carrier and your member ID?
+[9:30:29 PM] Patient: i have athena on me and my member id
+[9:30:33 PM] Patient: is a t 1 double four 692
+[9:30:34 PM] Patient: 139.
+[9:30:42 PM] Assistant: Thanks! So that's Athena, member ID a1466921239  is that right?
+[9:30:46 PM] Patient: no it's a t 1
+[9:30:50 PM] Patient: 99324169
+[9:30:58 PM] Assistant: Got it! So that's Athena, member ID a1993241691  is that right?
+[9:31:00 PM] Patient: yes.
+[9:31:06 PM] Assistant: No problem at all —    we've noted you as self-pay for now.
+[9:31:10 PM] Assistant: Do you have a preferred day or time for your routine cleaning appointment?
+[9:31:17 PM] Patient: anything works on thursday.
+[9:31:26 PM] Assistant: I have Thursday August 27th at eight in the morning with Dr. Sarah Mitchell, or eight thirty in the morning with Dr. Priya Sharma.
+[9:31:28 PM] Assistant: Which works best for you?
+[9:31:32 PM] Patient: with dr. priya sherman.
+[9:31:41 PM] Assistant: Got it! So Thursday August 27th at eight thirty in the morning with Dr. Priya Sharma for your routine cleaning —   does that sound right?
+[9:31:44 PM] Patient: yes.
+[9:31:54 PM] Assistant: Perfect! I have you scheduled for Thursday August 27th at eight thirty in the morning with Dr. Priya Sharma for your routine cleaning.
+[9:31:59 PM] Assistant: Confirmation details will be sent to rajeshsharma@gmail.com and to your phone.
+[9:32:02 PM] Assistant: Is there anything else I can help you with today?
+[9:32:05 PM] Patient: no, thank you.
+[9:32:09 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+[9:32:14 PM] Patient: thanks.
+[9:32:20 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[9:32:21 PM] Assistant: How can I help you today?
+=================================================
+
+Call ID: 1548750b-d130-4952-81c9-7ccdb60396ee
+Patient Name: Jacqueline Jose
+Date: 8/18/2026, 3:39:40 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[9:09:42 PM] Patient: hi
+[9:09:46 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[9:09:48 PM] Assistant: How can I help you today?
+[9:09:50 PM] Patient: hi i would like to book an appointment
+[9:09:56 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[9:09:58 PM] Patient: i'm new patient
+[9:10:03 PM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[9:10:06 PM] Patient: yes my name is jacqueline
+[9:10:14 PM] Assistant: That's Jacqueline —  is that spelled J-A-C-Q-U-E-L-I-N-E —   is that right?
+[9:10:16 PM] Patient: yes
+[9:10:18 PM] Patient: jacqueline jose
+[9:10:25 PM] Assistant: Thanks —  that's J-A-C-Q-U-E-L-I-N-E J-O-S-E —   is that correct?
+[9:10:28 PM] Patient: yes
+[9:10:31 PM] Assistant: Thank you! And may I have your date of birth?
+[9:10:35 PM] Patient: yes it's seven seven nineteen ninety seven
+[9:10:39 PM] Assistant: That's July 7 1997 is that correct?
+[9:10:41 PM] Patient: yes
+[9:10:48 PM] Assistant: Is +15168709245 the best phone number to reach you?
+[9:10:51 PM] Patient: yes
+[9:10:59 PM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[9:11:04 PM] Patient: yes it's uh h r
+[9:11:08 PM] Patient: dot anjali a n j a l i
+[9:11:09 PM] Patient: at yahoo dot com
+[9:11:16 PM] Assistant: That's H-R dot A-N-J-A-L-I-A-N-J-A-L-I at yahoo dot com —   is that right?
+[9:11:21 PM] Patient: no it's h r dot
+[9:11:25 PM] Patient: a n j a l i at yahoo
+[9:11:25 PM] Patient: dot com
+[9:11:32 PM] Assistant: Thanks —   that's H-R dot A-N-J-A-L-I at yahoo dot com —    is that correct?
+[9:11:34 PM] Patient: yes
+[9:11:45 PM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[9:11:47 PM] Assistant: dental concerns?
+[9:11:51 PM] Patient: so uh i wanna see doctor for i'm
+[9:11:55 PM] Patient: i'm experiencing some pain in my right tooth
+[9:11:59 PM] Patient: uh so i wanna see uh just have the consultation and get it checked
+[9:12:04 PM] Assistant: Understood. Will you be using dental insurance for this visit?
+[9:12:08 PM] Patient: uh yes i'll use delta insurance
+[9:12:14 PM] Assistant: Got it. Could you please provide your Delta insurance company name and member ID?
+[9:12:18 PM] Patient: uh so name is undermined uh
+[9:12:22 PM] Patient: and id is m w z 51
+[9:12:24 PM] Patient: 56 f
+[9:12:31 PM] Assistant: That's Delta, member ID M-W- Z-5156F —    is that right?
+[9:12:33 PM] Patient: correct
+[9:12:40 PM] Assistant: Thank you for all those details. Do you have a preferred day or time for your appointment?
+[9:12:44 PM] Patient: yes i wanna come as soon as possible uh i would prefer
+[9:12:46 PM] Patient: tomorrow if you have something available
+[9:12:58 PM] Assistant: I have Wednesday August 19th at nine in the morning with Dr. James Park, or nine in the morning with Dr. Priya Sharma, or nine thirty with Dr. James Park.
+[9:12:59 PM] Assistant: Which works best for you?
+[9:13:02 PM] Patient: i would like to come nine thirty
+[9:13:10 PM] Assistant: I have you scheduled for Wednesday August 19 at nine thirty with Dr. James Park for your tooth pain consultation.
+[9:13:11 PM] Assistant: Does that sound right?
+[9:13:14 PM] Patient: yes
+[9:13:24 PM] Assistant: Perfect —   your appointment is confirmed for Wednesday August 19 at nine thirty with Dr. James Park for your tooth pain consultation.
+[9:13:29 PM] Assistant: Confirmation details will be sent to HR.anjali@yahoo.com and to your phone.
+[9:13:32 PM] Assistant: Is there anything else I can help you with today?
+[9:13:34 PM] Patient: no thank you
+[9:13:39 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: 5bb63867-775c-4e7c-a164-af4558e8ae62
+Patient Name: Karen Sharma
+Date: 8/18/2026, 1:51:34 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[7:21:38 PM] Patient: hi
+[7:21:43 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[7:21:45 PM] Assistant: How can I help you today?
+[7:21:49 PM] Patient: hi, i would like to book an appointment.
+[7:21:54 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[7:21:56 PM] Patient: i'm a new patient.
+[7:22:02 PM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[7:22:07 PM] Patient: my full name is
+[7:22:08 PM] Patient: karen sharma.
+[7:22:11 PM] Assistant: That's Karen Sharma —  is that right?
+[7:22:13 PM] Patient: can you spell it?
+[7:22:21 PM] Assistant: Of course —  K-A-R-E-N S-H-A-R-M-A —   is that right?
+[7:22:23 PM] Patient: yeah.
+[7:22:27 PM] Assistant: Thank you! And may I have your date of birth?
+[7:22:32 PM] Patient: my date of birth is 18 september 19
+[7:22:33 PM] Patient: 96.
+[7:22:38 PM] Assistant: That's September 18 1996  is that correct?
+[7:22:40 PM] Patient: yeah.
+[7:22:47 PM] Assistant: Is +916264232264 the best phone number to reach you?
+[7:22:51 PM] Patient: yes.
+[7:22:58 PM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[7:23:04 PM] Patient: my email address is k a
+[7:23:08 PM] Patient: r a n c 0 d e s
+[7:23:11 PM] Patient: 18 at the rate g mail dot com.
+[7:23:20 PM] Assistant: That's K-A-R-A-N-C-O-D-E- S-1-8@G- M-A-I-L .COM  is that right?
+[7:23:22 PM] Patient: yes.
+[7:23:34 PM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[7:23:35 PM] Assistant: dental concerns?
+[7:23:40 PM] Patient: i just want to come for a regular checkup.
+[7:23:44 PM] Assistant: Understood. Will you be using dental insurance for this visit?
+[7:23:48 PM] Patient: no.
+[7:23:51 PM] Assistant: No problem at all, we'll note you as self-pay.
+[7:23:52 PM] Assistant: Do you have a preferred day or time for your appointment?
+[7:23:55 PM] Patient: 0 wait wait wait i want to use my dental insurance
+[7:24:00 PM] Assistant: Got it! Will you be using dental insurance for this visit?
+[7:24:01 PM] Assistant: If yes, could you please share the insurance company name and your member ID?
+[7:24:03 PM] Patient: yes.
+[7:24:07 PM] Assistant: Could you please share the insurance company name and your member ID?
+[7:24:14 PM] Patient: my insurance company name is athena and my member id
+[7:24:18 PM] Patient: is a t 1234
+[7:24:20 PM] Patient: 56789.
+[7:24:28 PM] Assistant: That's Athena, member ID A-T-123456789  is that right?
+[7:24:31 PM] Patient: yes.
+[7:24:37 PM] Assistant: No problem at all, we'll note you as self-pay.
+[7:24:40 PM] Assistant: Do you have a preferred day or time for your appointment?
+[7:24:45 PM] Patient: anything works on friday.
+[7:24:57 PM] Assistant: I have Friday August 21st at eight in the morning with Dr. Priya Sharma, or Monday August 24th at eight in the morning with Dr. Sarah Mitchell.
+[7:24:59 PM] Assistant: Which works best for you?
+[7:25:07 PM] Patient: with doctor sarah mitchell.
+[7:25:14 PM] Assistant: I have you scheduled for Monday August 24th at eight in the morning with Dr. Sarah Mitchell for a regular checkup.
+[7:25:16 PM] Assistant: Does that sound right?
+[7:25:19 PM] Patient: yes.
+[7:25:27 PM] Assistant: I have Thursday August 27th at eight in the morning with Dr. Sarah Mitchell for your regular checkup.
+[7:25:29 PM] Assistant: Does that sound right?
+[7:25:31 PM] Patient: yes.
+[7:25:41 PM] Assistant: Perfect!  I have you scheduled for Thursday August 27th at eight in the morning with Dr. Priya Sharma for a regular checkup.
+[7:25:46 PM] Assistant: Confirmation details will be sent to karancodes18@gmail.com.
+[7:25:48 PM] Assistant: Is there anything else I can help you with today?
+[7:25:51 PM] Patient: no, thank you.
+[7:25:56 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+[7:26:01 PM] Patient: okay, ma'am.
+[7:26:07 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: 1d9f5e6d-4b1e-445a-914b-1ad66b6bf6a0
+Patient Name: Karan Chauhan
+Date: 8/18/2026, 12:46:24 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[6:16:27 PM] Patient: hi
+[6:16:31 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[6:16:33 PM] Assistant: How can I help you today?
+[6:16:35 PM] Patient: i would like to book an appointment
+[6:16:41 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[6:16:46 PM] Patient: 0 sorry like i want to cancel my appointment
+[6:16:52 PM] Assistant: No problem at all. To help you cancel your appointment, I need to verify your identity first.
+[6:16:56 PM] Assistant: Could you please provide your full name and date of birth?
+[6:17:01 PM] Patient: my full name is karen chauhan and my date of birth is
+[6:17:02 PM] Patient: 18 september 2 thousand 3
+[6:17:08 PM] Assistant: I see that you're not currently in our system with any upcoming appointments.
+[6:17:08 PM] Assistant: If you're sure you have an appointment scheduled, could you confirm your date of birth once more?
+[6:17:10 PM] Patient: can you spell the name
+[6:17:17 PM] Assistant: Sure —  I have you as   K- A-R-E-N C-H-A-U-H-A-N**.
+[6:17:21 PM] Assistant: Is that correct? If so, could you confirm your date of birth again?
+[6:17:34 PM] Patient: no it's
+[6:17:40 PM] Assistant: I understand —  could you please spell your correct full name for me so I can look you up accurately?
+[6:17:44 PM] Assistant: Once I have that, I'll ask for your date of birth again to find any appointments.
+[6:17:50 PM] Patient: it's k a r a n
+[6:17:52 PM] Patient: c h a u h n
+[6:17:59 PM] Assistant: Great, I found you, Karan Chauhan! I see you have two upcoming appointments:
+[6:18:05 PM] Assistant: Friday August 28 at 9:00 AM    with Dr. Priya Sharma for a checkup (ID:
+[6:18:15 PM] Assistant: b083c85e-368c-425e-b426-f7de9c5e10dd)
+   Thursday August
+[6:18:19 PM] Assistant: 27 at 9:00 AM    with Dr. Sarah Mitchell for a root canal (ID:
+[6:18:30 PM] Assistant: 4bd8546e-4f8c-4c77-83e4-fd5f9ebf082d)
+Which appointment would you
+[6:18:35 PM] Assistant: like to cancel?  Please let me know the date or the type of appointment (checkup or root canal).
+[6:18:40 PM] Patient: i want to cancel both of my appointment
+[6:18:45 PM] Assistant: I can help cancel both of your appointments. Let me process them one by one for you.
+[6:18:50 PM] Assistant: First, I'll cancel your Thursday August 27 root canal with Dr. Sarah Mitchell.
+[6:18:55 PM] Assistant: Then I'll cancel your Friday August 28 checkup with Dr. Priya Sharma.
+[6:18:56 PM] Assistant: Is that okay with you?
+[6:18:59 PM] Patient: yeah
+[6:19:10 PM] Assistant: Perfect —   both of your appointments have been successfully cancelled: the root canal on Thursday August 27 and the checkup on Friday August 28.
+[6:19:13 PM] Assistant: Both are now marked as cancelled in our system.
+[6:19:15 PM] Assistant: Is there anything else I can help you with today?
+[6:19:21 PM] Patient: no i would like to book an appointment for my friend
+[6:19:25 PM] Assistant: Of course —   I'd be happy to help book an appointment for your friend.
+[6:19:29 PM] Assistant: Since this will be for a new patient, I'll need to collect a few details.
+[6:19:32 PM] Assistant: Could you please provide your friend's full name?
+[6:19:38 PM] Patient: my friend's full name is dhritesh sharma
+[6:19:42 PM] Assistant: Thank you. Could you please provide your friend's date of birth?
+[6:19:48 PM] Patient: 24 december 2 thousand 2
+[6:19:54 PM] Assistant: I need to ask for your friend's email address before I can create their record.
+[6:19:58 PM] Assistant: This is required for our appointment confirmations and reminders.
+[6:20:03 PM] Assistant: Could you please provide your friend's email address?  If they don't have one, I can proceed without it.
+[6:20:09 PM] Patient: like i don't remember the email you can have my
+[6:20:10 PM] Patient: mind
+[6:20:20 PM] Assistant: I understand, but I need to ask your friend directly for their email address —   I can't use yours or any other email on file without their explicit permission.
+[6:20:26 PM] Assistant: This is required for HIPAA compliance and to ensure they receive their appointment confirmation and reminders.
+[6:20:31 PM] Assistant: Could you please ask your friend for their email address and then tell me what they provide?
+[6:20:35 PM] Assistant: If they don't have an email, that's absolutely fine —   I can proceed without one.
+[6:20:39 PM] Patient: yeah they don't have any email right now
+[6:20:45 PM] Assistant: Thank you for confirming. Since your friend doesn't have an email address, I'll proceed without one.
+[6:20:48 PM] Assistant: Could you please tell me the reason for your friend's visit?
+[6:20:55 PM] Assistant: For example, are they coming in for a routine cleaning and checkup, or do they have a specific dental concern?
+[6:21:01 PM] Patient: they're looking for root canal
+[6:21:10 PM] Assistant: Got that saved —    root canal treatment for your friend Dhritesh Sharma, born December 24 2002.
+[6:21:13 PM] Assistant: Do they have a preferred day or time for the appointment?
+[6:21:20 PM] Assistant: For example, would they like the earliest available slot, or do they have a specific day or time in mind?
+[6:21:27 PM] Patient: um anything works tomorrow
+[6:21:40 PM] Assistant: I found a few available root canal slots for your friend: Tuesday August 25 at 8:00 AM with Dr. Priya Sharma, or Wednesday August 26 at either 8:00 AM or
+[6:21:44 PM] Assistant: 8:30 AM with Dr. Sarah Mitchell. Which one would work best for them?
+[6:21:49 PM] Patient: with sarah mitchell
+[6:21:56 PM] Assistant: Perfect —    so Wednesday August 26 at 8:00 AM with Dr. Sarah Mitchell for a root canal.
+[6:22:00 PM] Assistant: Before I book this, could you confirm one last thing?
+[6:22:08 PM] Assistant: Is +916264232264 the best phone number to reach your friend for appointment reminders?
+[6:22:10 PM] Patient: yes
+[6:22:21 PM] Assistant: Excellent —    I've successfully booked your friend's root canal appointment for Wednesday August 26 at 8:00 AM with Dr. Sarah Mitchell.
+[6:22:28 PM] Assistant: Your friend will receive a confirmation and reminders by phone at +916264232264.
+[6:22:31 PM] Assistant: Is there anything else I can help you with today?
+[6:22:37 PM] Patient: can you tell me the cost of a root canal
+[6:22:46 PM] Assistant: The cost of a root canal varies based on several factors including the complexity of the case and any additional procedures needed.
+[6:22:53 PM] Assistant: For the most accurate and up-to-date pricing, I recommend that your friend discusses fees directly with the dentist during their consultation.
+[6:23:00 PM] Assistant: Would you like me to schedule a consultation appointment in addition to the treatment, or is there anything else I can help with today?
+[6:23:05 PM] Patient: my friend has an insurance
+[6:23:13 PM] Assistant: That's great to hear! To check your friend's insurance coverage for the root canal, I'll need to verify their insurance details.
+[6:23:17 PM] Assistant: Could you please provide the insurance company name and the member ID?
+[6:23:22 PM] Assistant: If you're not sure, I can walk you through where to find this information on their insurance card.
+[6:23:26 PM] Patient: yeah like i'm unable to find it right now can you tell me where
+[6:23:27 PM] Patient: i can find it
+[6:23:33 PM] Assistant: No problem at all —    I can tell you where to find the insurance information.
+[6:23:45 PM] Assistant: On the insurance card, your friend should look for:
+ The insurance company name (this is usually printed prominently)
+ The member ID or subscriber ID —    this is typically a number, sometimes with hyphens
+[6:23:49 PM] Assistant: The group number, if present
+ The
+[6:23:58 PM] Assistant: policyholder's name (this may be your friend's name or someone else's)Once your friend has these details, I can verify their coverage for the root canal.
+[6:24:03 PM] Assistant: Would you like me to wait while they find this information, or is there anything else I can help with in the meantime?
+[6:24:07 PM] Patient: no like he gonna do self pay
+[6:24:13 PM] Assistant: Understood —    if your friend will be self-paying for the root canal, that's absolutely fine.
+[6:24:18 PM] Assistant: The office will discuss pricing directly with them during the consultation.
+[6:24:25 PM] Assistant: If you'd like, I can schedule a consultation appointment so they can discuss fees and treatment options before the actual procedure.
+=================================================
+
+Call ID: e2d8132e-824c-4988-a17b-b2af0927b01d
+Patient Name: Harshit Kumar
+Date: 8/18/2026, 10:22:47 AM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[3:52:51 PM] Patient: hi
+[3:52:53 PM] Patient: what kind of work do you do?
+[3:52:57 PM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[3:52:59 PM] Assistant: How can I help you today?
+[3:53:02 PM] Patient: i would like to book an appointment.
+[3:53:08 PM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[3:53:10 PM] Patient: i'm a new patient.
+[3:53:14 PM] Assistant: Great! May I have your full name, please?
+[3:53:18 PM] Patient: my full name is harshit kumar.
+[3:53:22 PM] Assistant: That's Harshit Kumar —  is that right?
+[3:53:24 PM] Patient: yes.
+[3:53:28 PM] Assistant: Thank you! And may I have your date of birth?
+[3:53:34 PM] Patient: 14 august 2 thousand 3.
+[3:53:38 PM] Assistant: That's August 14 2003 is that correct?
+[3:53:41 PM] Patient: yes.
+[3:53:48 PM] Assistant: Is +916264232264 the best phone number to reach you?
+[3:53:50 PM] Patient: yes.
+[3:53:58 PM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[3:54:04 PM] Patient: my email address is j double
+[3:54:08 PM] Patient: e m a i n 145 at the rate g
+[3:54:08 PM] Patient: mail dot com
+[3:54:14 PM] Assistant: That's jemain145@gmail.com —  is that right?
+[3:54:16 PM] Patient: can you spell it?
+[3:54:25 PM] Assistant: That's j, e, m, a, i, n, 1, 4, 5, @, g, m, a, i, l, .,  c, o, m —  is that right?
+[3:54:30 PM] Patient: no it's j double e
+[3:54:34 PM] Patient: m a i n 145 at the rate
+[3:54:35 PM] Patient: gmail dot com
+[3:54:43 PM] Assistant: That's j, e, e, m, a, i, n, 1, 4, 5, @, g, m, a, i, l, .,   c, o, m —   is that right?
+[3:54:46 PM] Patient: yes
+[3:54:58 PM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[3:54:59 PM] Assistant: dental concerns?
+[3:55:05 PM] Patient: it's some kind of emergency i am facing a tooth
+[3:55:06 PM] Patient: ache
+[3:55:10 PM] Assistant: Understood. Will you be using dental insurance for this visit?
+[3:55:13 PM] Patient: no
+[3:55:17 PM] Assistant: No problem at all, we'll note you as self-pay.
+[3:55:20 PM] Assistant: Do you have a preferred day or time for your appointment?
+[3:55:24 PM] Patient: anything works as soon as possible.
+[3:55:37 PM] Assistant: I have Wednesday August 19th at eight in the morning with Dr. Sarah Mitchell, or Wednesday August 19th at eight thirty in the morning with Dr. Sarah Mitchell, or Wednesday August 19th
+[3:55:42 PM] Assistant: at nine in the morning with Dr. James Park. Which works best for you?
+[3:55:47 PM] Patient: with doctor sarah mitchell.
+[3:55:55 PM] Assistant: I have you scheduled for Wednesday August 19 at eight in the morning with Dr. Sarah Mitchell for an emergency visit due to tooth ache.
+[3:55:57 PM] Assistant: Does that sound right?
+[3:56:00 PM] Patient: yes.
+[3:56:07 PM] Assistant: That slot is no longer available. Doctor has an appointment at 8:00 AM.
+[3:56:11 PM] Assistant: How about Wednesday August 19 at nine in the morning with Dr. Sarah Mitchell instead?
+[3:56:14 PM] Patient: sure.
+[3:56:23 PM] Assistant: I have you scheduled for Wednesday August 19 at nine in the morning with Dr. Sarah Mitchell for an emergency visit due to tooth ache.
+[3:56:25 PM] Assistant: Does that sound right?
+[3:56:28 PM] Patient: yes.
+[3:56:33 PM] Assistant: Confirmation details will be sent automatically by text and email.
+[3:56:36 PM] Assistant: Is there anything else I can help you with today?
+[3:56:46 PM] Patient: no, thank you.
+[3:56:51 PM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+
+Call ID: 2cf6db97-cf26-484c-9716-5aa37d1bb74e
+Patient Name: Michael Jordan
+Date: 8/17/2026, 10:29:28 PM
+Intent: N/A
+Status: completed
+-------------------------------------------------
+[3:59:30 AM] Patient: hi
+[3:59:34 AM] Assistant: Thank you for calling Smile Plus Dental. My name is Dentsi.
+[3:59:36 AM] Assistant: How can I help you today?
+[3:59:38 AM] Patient: hi i would like to book an appointment
+[3:59:44 AM] Assistant: Of course —  I'd be happy to help. Are you a new or existing patient with us?
+[3:59:45 AM] Patient: i'm new patient
+[3:59:50 AM] Assistant: Great! Let's get you registered. May I have your full name, please?
+[3:59:53 AM] Patient: yes michael jordan
+[3:59:56 AM] Assistant: That's Michael Jordan —  is that right?
+[3:59:58 AM] Patient: yes
+[4:00:02 AM] Assistant: Thank you! And may I have your date of birth?
+[4:00:06 AM] Patient: yes it's uh 2
+[4:00:09 AM] Patient: uh two one nineteen
+[4:00:10 AM] Patient: 91
+[4:00:14 AM] Assistant: That's August 21 1991 is that correct?
+[4:00:18 AM] Patient: no it's um it's february
+[4:00:20 AM] Patient: first nineteen ninety one
+[4:00:25 AM] Assistant: Thanks —  that's February 1 1991 is that correct?
+[4:00:27 AM] Patient: yes
+[4:00:35 AM] Assistant: Is +15168709245 the best phone number to reach you?
+[4:00:37 AM] Patient: yes
+[4:00:45 AM] Assistant: Great! And what is your email address?  We'll use it to send your appointment confirmation, reminders, and new patient forms.
+[4:00:50 AM] Patient: it's anjali a n j a l
+[4:00:54 AM] Patient: i s u s a
+[4:00:56 AM] Patient: i
+[4:00:57 AM] Patient: i'm sorry
+[4:01:01 AM] Patient: anjali s u s a 16 at gmail dot
+[4:01:01 AM] Patient: com
+[4:01:06 AM] Assistant: That's anjalisusa16@gmail.com —  is that right?
+[4:01:08 AM] Patient: yes
+[4:01:19 AM] Assistant: Got that saved. Could you tell me the reason for your visit today —   are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific
+[4:01:20 AM] Assistant: dental concerns?
+[4:01:24 AM] Patient: um yeah i'm coming for a routine checkup
+[4:01:29 AM] Assistant: Understood. Will you be using dental insurance for this visit?
+[4:01:32 AM] Patient: yes delta
+[4:01:37 AM] Assistant: Thanks! Could you provide the member ID for your Delta insurance, please?
+[4:01:41 AM] Patient: yes it's y x
+[4:01:46 AM] Patient: d f 101090
+[4:01:52 AM] Assistant: That's member ID  YXDF 101090 —   is that right?
+[4:01:55 AM] Patient: yes
+[4:02:02 AM] Assistant: Thank you for all those details. Do you have a preferred day or time for your appointment?
+[4:02:05 AM] Patient: yes i want to come friday 1 p m
+[4:02:13 AM] Assistant: I have Friday August 21st at one p m with Dr. Priya Sharma —   does that work for you?
+[4:02:15 AM] Patient: yes
+[4:02:23 AM] Assistant: I have you scheduled for Friday August 21 at one p m with Dr. Priya Sharma for a routine checkup.
+[4:02:25 AM] Assistant: Does that sound right?
+[4:02:27 AM] Patient: yes
+[4:02:37 AM] Assistant: Perfect —   your appointment is confirmed for Friday August 21 at one p m with Dr. Priya Sharma for a routine checkup.
+[4:02:43 AM] Assistant: Confirmation details will be sent to anjalisusa16@gmail.com and to your phone.
+[4:02:45 AM] Assistant: Is there anything else I can help you with today?
+[4:02:49 AM] Patient: uh no thanks
+[4:02:53 AM] Assistant: Thank you for choosing Smile Plus Dental. Have a wonderful day!
+=================================================
+

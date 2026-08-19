@@ -6,7 +6,7 @@ import { Play, AudioLines, Pause } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 const VIDEO_URL = 'https://www.youtube.com/embed/gJXAg87tQrY';
-const AUDIO_URL = '/harvard.wav';
+const AUDIO_URL = '/audio.mp3';
 
 const HERO_CONTENT = {
   headline: 'Amplifying',
@@ -21,16 +21,64 @@ const HERO_CONTENT = {
 };
 
 const CAPTIONS = [
-  { start: 0, end: 3.5, text: "The stale smell of old beer lingers." },
-  { start: 3.5, end: 7, text: "It takes heat to bring out the odor." },
-  { start: 7, end: 10.5, text: "A cold dip restores health and zest." },
-  { start: 10.5, end: 14, text: "A salt pickle tastes fine with ham." },
-  { start: 14, end: 17.5, text: "Tacos al pastor are my favorite." },
-  { start: 17.5, end: 21, text: "A zestful food is the hot cross bun." },
-  { start: 21, end: 25, text: "The birch canoe slid on the smooth planks." },
-  { start: 25, end: 29, text: "Glue the sheet to the dark blue background." },
-  { start: 29, end: 35, text: "It's easy to tell the depth of a well." },
-  { start: 35, end: 60, text: "🎧 Listening..." },
+  { start: 0, end: 6, speaker: "Amplit AI", text: "Thank you for calling Smile Plus Dental. My name is Dentsi." },
+  { start: 6, end: 8, speaker: "Amplit AI", text: "How can I help you today?" },
+  { start: 8, end: 14, speaker: "Patient", text: "i would like to book an appointment." },
+  { start: 14, end: 16, speaker: "Amplit AI", text: "Of course — I'd be happy to help. Are you a new or existing patient with us?" },
+  { start: 16, end: 21, speaker: "Patient", text: "i am a new patient." },
+  { start: 21, end: 26, speaker: "Amplit AI", text: "Great! Let's get you registered. May I have your full name, please?" },
+  { start: 26, end: 29, speaker: "Patient", text: "lisa park, l i s a." },
+  { start: 29, end: 32, speaker: "Patient", text: "p a r k." },
+  { start: 32, end: 34, speaker: "Amplit AI", text: "That's Lisa Park — is that right?" },
+  { start: 34, end: 37, speaker: "Patient", text: "that's correct." },
+  { start: 37, end: 42, speaker: "Amplit AI", text: "Thank you! And may I have your date of birth?" },
+  { start: 42, end: 47, speaker: "Patient", text: "eleven sixteen two thousand 7." },
+  { start: 47, end: 49, speaker: "Amplit AI", text: "Thanks — that's November 16 2007 is that correct?" },
+  { start: 49, end: 56, speaker: "Patient", text: "that's correct." },
+  { start: 56, end: 60, speaker: "Amplit AI", text: "Is +14696702982 the best phone number to reach you?" },
+  { start: 60, end: 62, speaker: "Patient", text: "no. can you update my number?" },
+  { start: 62, end: 66, speaker: "Patient", text: "can you update my number?" },
+  { start: 66, end: 71, speaker: "Amplit AI", text: "I can update your number. What is your new phone number, please?" },
+  { start: 71, end: 74, speaker: "Patient", text: "516957" },
+  { start: 74, end: 80, speaker: "Patient", text: "8453." },
+  { start: 80, end: 83, speaker: "Amplit AI", text: "Thanks — that's 5169578453 is that right?" },
+  { start: 83, end: 91, speaker: "Patient", text: "that's correct." },
+  { start: 91, end: 95, speaker: "Amplit AI", text: "Great! And what is your email address? We'll use it to send your appointment confirmation, reminders, and new patient forms." },
+  { start: 95, end: 99, speaker: "Patient", text: "my email address is l park." },
+  { start: 99, end: 106, speaker: "Patient", text: "8117 at gmail dot com." },
+  { start: 106, end: 108, speaker: "Amplit AI", text: "That's lpark.8117@gmail.com — is that right?" },
+  { start: 108, end: 112, speaker: "Patient", text: "no." },
+  { start: 112, end: 116, speaker: "Amplit AI", text: "I understand. Could you please spell it out for me again?" },
+  { start: 116, end: 121, speaker: "Patient", text: "l p a r k" },
+  { start: 121, end: 127, speaker: "Patient", text: "8117 at gmail dot com" },
+  { start: 127, end: 130, speaker: "Amplit AI", text: "That's lpark8117@gmail.com — is that right?" },
+  { start: 130, end: 140, speaker: "Patient", text: "that's correct." },
+  { start: 140, end: 142, speaker: "Amplit AI", text: "Got that saved. Could you tell me the reason for your visit today — are you coming in for a routine cleaning and checkup, or are you experiencing any pain or specific" },
+  { start: 142, end: 145, speaker: "Amplit AI", text: "dental concerns?" },
+  { start: 145, end: 149, speaker: "Patient", text: "i'm coming in for a routine cleaning." },
+  { start: 149, end: 151, speaker: "Amplit AI", text: "Understood. Will you be using dental insurance for this visit?" },
+  { start: 151, end: 157, speaker: "Patient", text: "yes." },
+  { start: 157, end: 161, speaker: "Amplit AI", text: "Got it. Could you please provide the name of your insurance carrier and your member ID?" },
+  { start: 161, end: 165, speaker: "Patient", text: "cigna healthcare." },
+  { start: 165, end: 170, speaker: "Amplit AI", text: "Thanks! And what is your Cigna Healthcare member ID, please?" },
+  { start: 170, end: 175, speaker: "Patient", text: "817354." },
+  { start: 175, end: 177, speaker: "Amplit AI", text: "Thanks — that's 8173554 is that right?" },
+  { start: 177, end: 185, speaker: "Patient", text: "that's correct." },
+  { start: 185, end: 189, speaker: "Amplit AI", text: "Thank you for that information. Do you have a preferred day or time for your appointment?" },
+  { start: 189, end: 201, speaker: "Patient", text: "i'm looking for next week tuesday at 4 p m." },
+  { start: 201, end: 205, speaker: "Amplit AI", text: "I have available slots on Tuesday August 25th. I see Dr. James Park has openings at 12:00 PM, 12:30 PM, and 1:00 PM." },
+  { start: 205, end: 209, speaker: "Amplit AI", text: "I don't see a 4:00 PM slot available with any doctor on that day." },
+  { start: 209, end: 213, speaker: "Amplit AI", text: "Would you like to choose from these available times, or would you prefer a different day?" },
+  { start: 213, end: 215, speaker: "Patient", text: "can i have that tuesday at 1 p" },
+  { start: 215, end: 223, speaker: "Patient", text: "m with dr park?" },
+  { start: 223, end: 225, speaker: "Amplit AI", text: "I have you scheduled for Tuesday August 25 at 1:00 PM with Dr. James Park for a routine cleaning." },
+  { start: 225, end: 227, speaker: "Amplit AI", text: "Does that sound right?" },
+  { start: 227, end: 233, speaker: "Patient", text: "that's correct." },
+  { start: 233, end: 235, speaker: "Amplit AI", text: "Perfect. You'll receive a confirmation with all the details by text and email." },
+  { start: 235, end: 237, speaker: "Amplit AI", text: "Is there anything else I can help you with today?" },
+  { start: 237, end: 242, speaker: "Patient", text: "no thank you." },
+  { start: 242, end: 243, speaker: "Amplit AI", text: "Thank you for choosing Smile Plus Dental. Have a wonderful day!" },
+  { start: 243, end: 248, speaker: "Patient", text: "bye-bye." }
 ];
 
 export default function HeroSection() {
@@ -67,7 +115,9 @@ export default function HeroSection() {
     setCurrentTime(0);
   };
 
-  const currentCaption = CAPTIONS.find(c => currentTime >= c.start && currentTime <= c.end)?.text || "🎵 ...";
+  const currentCaptionObj = CAPTIONS.find(c => currentTime >= c.start && currentTime <= c.end);
+  const currentCaption = currentCaptionObj?.text || "🎵 ...";
+  const currentSpeaker = currentCaptionObj?.speaker || HERO_CONTENT.captionLabel;
 
   return (
     <section className="relative h-[70vh] mt-10 md:mt-20 overflow-hidden flex flex-col">
@@ -106,7 +156,7 @@ export default function HeroSection() {
               className="flex flex-wrap items-center justify-center md:justify-start gap-4"
             >
               {/* See In Action button */}
-              {/* <button
+              <button
                 onClick={togglePlay}
                 className="relative z-50 inline-flex items-center gap-3 px-6 py-3 bg-brand border border-transparent text-white font-medium text-sm rounded-full shadow-[0_4px_14px_rgba(var(--brand-rgb),0.2)] hover:shadow-[0_6px_20px_rgba(var(--brand-rgb),0.25)] transition-all group cursor-pointer"
               >
@@ -118,7 +168,7 @@ export default function HeroSection() {
                   )}
                 </span>
                 {isPlaying ? HERO_CONTENT.ctaPrimaryActive : HERO_CONTENT.ctaPrimary}
-              </button> */}
+              </button>
 
               <Dialog>
                 <DialogTrigger asChild>
@@ -222,7 +272,7 @@ export default function HeroSection() {
             className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-2xl bg-white/90 backdrop-blur-2xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] rounded-2xl border border-black/5 p-5 flex items-center gap-6"
           >
             <div className="flex-1">
-              <p className="text-xs font-semibold text-brand/80 uppercase tracking-wider mb-1.5">{HERO_CONTENT.captionLabel}</p>
+              <p className="text-xs font-semibold text-brand/80 uppercase tracking-wider mb-1.5">{currentSpeaker}</p>
               <p className="text-lg md:text-xl font-medium text-black/80 leading-snug">
                 {currentCaption}
               </p>
