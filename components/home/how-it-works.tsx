@@ -29,7 +29,7 @@ const steps = [
     step: '02',
     icon: MessageSquareText,
     title: 'Amplit AI Answers',
-    description: 'Our natural voice AI answers immediately, understanding HealthCare terminology and clinical protocols.',
+    description: 'Our natural voice AI answers immediately, understanding Dental terminology and clinical protocols.',
     bullets: ['Human-like conversational voice', 'Custom trained on your workflows', 'Can answer FAQs and triage'],
     video: '/videos/step-02.mp4',
   },
