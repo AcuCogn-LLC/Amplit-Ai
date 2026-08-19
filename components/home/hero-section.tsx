@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, AudioLines, Pause } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
@@ -13,7 +13,7 @@ const HERO_CONTENT = {
   headlineHighlight: 'Healthcare Intelligence',
   subtitle:
     'Your AI-powered front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.',
-  ctaPrimary: 'See In Action',
+  ctaPrimary: 'Try Now',
   ctaPrimaryActive: 'Pause Demo',
   ctaSecondary: 'Watch Demo',
   annotation: 'Talk with Amplit Ai',
@@ -132,6 +132,29 @@ export default function HeroSection() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const reqRef = useRef<number>();
+
+  const updateTime = () => {
+    if (audioRef.current) {
+      setCurrentTime(audioRef.current.currentTime);
+    }
+    reqRef.current = requestAnimationFrame(updateTime);
+  };
+
+  useEffect(() => {
+    if (isPlaying) {
+      reqRef.current = requestAnimationFrame(updateTime);
+    } else {
+      if (reqRef.current !== undefined) {
+        cancelAnimationFrame(reqRef.current);
+      }
+    }
+    return () => {
+      if (reqRef.current !== undefined) {
+        cancelAnimationFrame(reqRef.current);
+      }
+    };
+  }, [isPlaying]);
 
   const togglePlay = async () => {
     if (audioRef.current) {
@@ -148,12 +171,6 @@ export default function HeroSection() {
           // If browser blocked it, we could show an error, but let's just make sure it doesn't crash
         }
       }
-    }
-  };
-
-  const handleTimeUpdate = () => {
-    if (audioRef.current) {
-      setCurrentTime(audioRef.current.currentTime);
     }
   };
 
@@ -332,7 +349,6 @@ export default function HeroSection() {
         ref={audioRef}
         src={AUDIO_URL}
         preload="auto"
-        onTimeUpdate={handleTimeUpdate}
         onEnded={handleAudioEnded}
         onError={(e) => console.error("Audio generated an error:", e)}
       />
