@@ -10,10 +10,10 @@ const AUDIO_URL = '/audio1.mpeg';
 
 const HERO_CONTENT = {
   headline: 'Amplifying',
-  headlineHighlight: 'Healthcare Intelligence',
+  headlineHighlight: 'Dental Intelligence',
   subtitle:
-    'Your AI-powered front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.',
-  ctaPrimary: 'Hear It Live',
+    'Your AI-powered front desk answers every call, books appointments, and works 24/7 so you never miss an oppourtunity again.',
+  ctaPrimary: 'Talk with Dentsi',
   ctaPrimaryActive: 'Listening...',
   ctaSecondary: 'Watch Demo',
   annotation: 'Talk with Dentsi',
@@ -288,7 +288,7 @@ export default function HeroSection() {
                   <button
                     className="inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-black/5 text-[#4e5157] font-medium text-sm rounded-full hover:bg-black/5 hover:text-gray-900 transition-all group"
                   >
-                    <span className="w-8 h-8 rounded-full bg-black/5 flex items-center justify-center shrink-0 group-hover:bg-black/10 transition-colors">
+                    <span className="w-8 h-8 rounded-full bg-brand-colour flex items-center justify-center shrink-0 group-hover:bg-black/10 transition-colors">
                       <Play className="w-3.5 h-3.5 text-black/60 fill-current ml-0.5 group-hover:text-black transition-colors" />
                     </span>
                     {HERO_CONTENT.ctaSecondary}
