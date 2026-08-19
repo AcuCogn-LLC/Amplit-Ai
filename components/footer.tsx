@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-[#4e5157] font-medium text-base leading-relaxed max-w-md">
-              Amplit AI is a healthcare-focused AI company building intelligent
+              Amplit AI is a Dental Care-focused AI company building intelligent
               solutions that reduce operational burden and improve patient
               engagement.
             </p>
@@ -115,7 +115,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Amplit AI. All rights reserved.
             </p>
             <p className="text-[#4e5157] font-medium text-sm">
-              Healthcare AI Solutions | Dallas, Texas
+              Dental AI Solutions | Dallas, Texas
             </p>
           </div>
         </div>
