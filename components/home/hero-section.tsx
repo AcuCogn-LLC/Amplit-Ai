@@ -13,8 +13,8 @@ const HERO_CONTENT = {
   headlineHighlight: 'Healthcare Intelligence',
   subtitle:
     'Your AI-powered front desk answers every call, books appointments, and works 24/7 — so you never miss an oppourtunity again.',
-  ctaPrimary: 'Try Now',
-  ctaPrimaryActive: 'Pause Demo',
+  ctaPrimary: 'Hear It Live',
+  ctaPrimaryActive: 'Listening...',
   ctaSecondary: 'Watch Demo',
   annotation: 'Talk with Dentsi',
   captionLabel: 'Dentsi is speaking',
@@ -215,20 +215,73 @@ export default function HeroSection() {
               transition={{ duration: 1.0, delay: 0.4, ease: "easeOut" }}
               className="flex flex-wrap items-center justify-center md:justify-start gap-4"
             >
-              {/* See In Action button */}
-              <button
-                onClick={togglePlay}
-                className="relative z-50 inline-flex items-center gap-3 px-6 py-3 bg-brand border border-transparent text-white font-medium text-sm rounded-full shadow-[0_4px_14px_rgba(var(--brand-rgb),0.2)] hover:shadow-[0_6px_20px_rgba(var(--brand-rgb),0.25)] transition-all group cursor-pointer"
-              >
-                <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0">
-                  {isPlaying ? (
-                    <Pause className="w-3.5 h-3.5 text-white fill-current ml-0.5" />
-                  ) : (
-                    <AudioLines className="w-3.5 h-3.5 text-white ml-0.5" />
-                  )}
-                </span>
-                {isPlaying ? HERO_CONTENT.ctaPrimaryActive : HERO_CONTENT.ctaPrimary}
-              </button>
+              {/* See In Action button with wave effects */}
+              <div className="relative z-50">
+                {/* Sonar ripple rings */}
+                {[0, 0.6, 1.2].map((delay) => (
+                  <motion.div
+                    key={delay}
+                    animate={{
+                      scale: [1, 2.2],
+                      opacity: [0.45, 0],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      ease: "easeOut",
+                      delay,
+                    }}
+                    className="absolute inset-0 rounded-full border-2 border-brand/40 pointer-events-none"
+                  />
+                ))}
+                <motion.button
+                  onClick={togglePlay}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.97 }}
+                  animate={{
+                    y: [0, -4, 0],
+                  }}
+                  transition={{
+                    y: {
+                      duration: 2.5,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    },
+                  }}
+                  className="relative inline-flex items-center gap-3 px-7 py-3.5 bg-brand border border-transparent text-white font-semibold text-sm rounded-full shadow-[0_4px_14px_rgba(var(--brand-rgb),0.3)] hover:shadow-[0_8px_25px_rgba(var(--brand-rgb),0.4)] transition-shadow group cursor-pointer overflow-hidden"
+                >
+                  {/* Shimmer sweep */}
+                  <motion.div
+                    animate={{ x: ["-100%", "200%"] }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      repeatDelay: 3,
+                      ease: "easeInOut",
+                    }}
+                    className="absolute inset-y-0 w-1/3 bg-gradient-to-r from-transparent via-white/25 to-transparent -skew-x-12 pointer-events-none"
+                  />
+                  <span className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 relative">
+                    {isPlaying ? (
+                      <Pause className="w-3.5 h-3.5 text-white fill-current ml-0.5" />
+                    ) : (
+                      <motion.span
+                        animate={{ rotate: [0, -15, 15, -10, 10, 0] }}
+                        transition={{
+                          duration: 0.6,
+                          repeat: Infinity,
+                          repeatDelay: 2,
+                          ease: "easeInOut",
+                        }}
+                        className="flex items-center justify-center"
+                      >
+                        <AudioLines className="w-3.5 h-3.5 text-white ml-0.5" />
+                      </motion.span>
+                    )}
+                  </span>
+                  <span className="relative">{isPlaying ? HERO_CONTENT.ctaPrimaryActive : HERO_CONTENT.ctaPrimary}</span>
+                </motion.button>
+              </div>
 
               <Dialog>
                 <DialogTrigger asChild>
