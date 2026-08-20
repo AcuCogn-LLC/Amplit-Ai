@@ -43,7 +43,7 @@ export default function AboutFeatures() {
                   "Knows dental procedures & patient queries",
                   "Handles common patient questions",
                   "Customizable for your clinic operations",
-                  "Designed with healthcare privacy in mind",
+                  "Designed with dental privacy in mind",
                 ].map((item) => (
                   <li
                     key={item}
@@ -86,7 +86,7 @@ export default function AboutFeatures() {
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight leading-tight mb-6">
               Purpose-built for <br />
-              <span className="text-brand">healthcare operations.</span>
+              <span className="text-brand">dental operations.</span>
             </h2>
 
             <p className="text-lg text-black/70 leading-relaxed max-w-lg">

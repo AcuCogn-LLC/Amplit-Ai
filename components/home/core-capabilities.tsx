@@ -42,7 +42,7 @@ const capabilities = [
     features: [
       'Peak call times analysis',
       'Appointments booked automatically',
-      'Designed with healthcare privacy in mind',
+      'Designed with dental privacy in mind',
     ],
   },
 ];

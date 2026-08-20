@@ -60,7 +60,7 @@ export default function AboutFeatures() {
             Our Core Values
           </h2>
           {/* <p className="text-[15px] md:text-[17px] text-[#4e5157] font-medium leading-relaxed">
-            The principles that guide our innovation, service, and commitment to dental and healthcare excellence.
+            The principles that guide our innovation, service, and commitment to dental excellence.
           </p> */}
         </motion.div>
 
